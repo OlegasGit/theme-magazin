@@ -1,0 +1,23 @@
+/* ----- Breadcrumbs start ----- */
+.breadcrumb-item + .breadcrumb-item::before{
+    content: "-";
+    color: #8bc34a;
+}
+
+.breadcrumb{
+    font-size: 15px;
+    padding: 0;
+    margin-bottom: 45px; 
+    /* отступ до секции aside */
+    background-color: transparent;
+}
+.breadcrumb-item{
+    color: #b0bec5;
+}
+.breadcrumb-item a:hover{
+    color: #263238;
+}
+.breadcrumb-item.active{
+    color: #263238;
+}
+/* ----- Breadcrumbs end ----- */
