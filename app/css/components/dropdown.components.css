@@ -1,0 +1,146 @@
+/* dropdown start */
+#dropdown-user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.dropdown-menu {
+    border: 1px solid #d5d5d5;
+    border-radius: 0;
+    -webkit-box-shadow:  0 16px 20px 0 rgba(216, 216, 216, 0.75);
+            box-shadow:  0 16px 20px 0 rgba(216, 216, 216, 0.75);
+    padding: 0;
+    background-color: #fff;
+    max-width: 288px;
+    min-width: 160px;
+}
+
+.header-top .dropdown-menu {
+    right: 0;
+    left: auto;
+    margin-top: 27px;
+}
+
+/* #dropdown-basket .dropdown-menu .show{
+    max-width: 270px;
+} */
+
+.dropdown-item {
+    padding: 13px 17px;
+    border-bottom: 1px solid #e0e0e0;
+    white-space: normal;
+}
+
+.dropdown-item.active, .dropdown-item:active,
+.dropdown-item:focus, .dropdown-item:hover {
+    color: inherit;
+    background-color: #fff;
+}
+
+a.dropdown-item:focus, a.dropdown-item:hover .item-icon {
+    color: #ef6c00;
+}
+
+.dropdown-item .dropdown-card {
+    min-width: 236px;
+    padding: 0 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.dropdown-item:last-child {
+    border-bottom: 0;
+}
+
+.dropdown-card span {
+    display: block;
+}
+
+.dropdown-card .dropdown-card-img {
+    width: 73px;
+    height: 56px;
+    background-color: #d4d4d4;
+    overflow: hidden;
+}
+
+.dropdown-card.card-notification .dropdown-card-img {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #bdd0e7;
+    border-radius: 50%;
+}
+
+.dropdown-item .item-icon {
+    margin-left: auto;
+    padding: 8px;
+    color: #b0bec5;
+}
+
+.card-notification .item-info .item-name {
+    font-size: 12px;
+}
+
+.card-notification .item-info .item-category {
+    font-size: 11px;
+}
+
+.card-notification .item-info .item-date {
+    font-size: 10px;
+    line-height: 2;
+    color: #90a4ae;
+}
+
+.dropdown-item .item-info {
+    margin-left: 15px;
+    line-height: 1.4;
+}
+
+.item-info .item-name {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.item-info .item-category {
+    font-size: 12px;
+    color: #84b743;
+}
+
+.item-info .item-price {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.item-amount {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.item-amount span {
+    padding: 0 15px;
+}
+
+.btn-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.btn-row .btn-custom {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 auto;
+            flex: 1 auto;
+}
+
+/* dropdown end */

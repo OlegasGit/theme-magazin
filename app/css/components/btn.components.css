@@ -1,0 +1,80 @@
+
+/* Buttons start */
+.btn-custom {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px 24px;
+    font-size: 16px;
+    line-height: 1.35;
+    font-weight: 400;
+    text-transform: capitalize;
+    border-radius: 0;
+    border: 0;
+}
+
+.btn-custom[disabled] {
+    cursor: not-allowed;
+    opacity: .6;
+}
+
+.btn-custom.btn-default {
+    background-color: #fff;
+    color: #263238;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(182, 182, 192, .75);
+            box-shadow: 0 1px 3px 0 rgba(182, 182, 192, .75);
+    min-width: 163px;
+}
+
+.btn-custom.btn-default:hover {
+    background-color: #d1d0d0;
+}
+
+.btn-custom.btn-small {
+    padding: 9px 13px;
+    color: #fff;
+    min-width: 72px;
+    font-size: 12px;
+}
+
+.btn-danger, .btn-success, .btn-secondary, .btn-primary {
+    font-weight: 500;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+}
+
+.btn-danger:hover {
+    background-color: #c81d0b;
+}
+
+.btn-secondary {
+    background-color: #546e7a;
+}
+
+.btn-secondary:hover {
+    background-color: #394a53;
+}
+
+.btn-success {
+    background-color: #8bc34a;
+}
+
+.btn-success:hover {
+    background-color: #79a942;
+}
+
+.btn-primary {
+    background-color: #42a5f5;
+}
+
+.btn-primary:hover {
+    background-color: #3b92d9;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 1px 3px 0 rgba(182, 182, 192, .75);
+            box-shadow: 0 1px 3px 0 rgba(182, 182, 192, .75);
+}
+/* Buttons end */
