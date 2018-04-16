@@ -4,31 +4,38 @@
 	background-repeat: no-repeat;
 	background-position: center;
     background-size: cover;
-    margin-bottom: 40px;	
+    margin-bottom: 40px;  
     /* отступ до секции хлебные крошки */
 }
 .search-section.big-search{
-    padding-top: 150px;
-    padding-bottom: 170px;
+    height: 535px;
 }
 .search-section.small-search{
-    padding-top: 55px;
-    padding-bottom: 65px;
+    height: 230px;
 }
-.title-search-section{
+.search-section .container{
+    height: 100%;
+}
+.search-section .row{
+    height: 100%;
+}
+.search-section h1{
     color: #fff;
     text-transform: capitalize;
-    margin-bottom: 25px;
-}
-.title-search-section h1{
     font-weight: 700;
     font-size: 48px;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
-.title-search-section h2{
+.search-section h2{
+    color: #fff;
+    text-transform: capitalize;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
+    margin-bottom: 55px;
+}
+.search-section.small-search h2{
+    margin-bottom: 25px;
 }
 .form-control-search{
     max-width: 620px;
@@ -41,7 +48,7 @@
     font-weight: 500;
     letter-spacing: .05em;
     text-transform: capitalize;
-    color: #90a4ae;
+    color: #90a4ae;   
 }
 .form-control-search:focus{
     -webkit-box-shadow: 1px 1px 30px rgba(124, 178, 64, 0.75);

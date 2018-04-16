@@ -1,20 +1,21 @@
 /* ----- Aside section start ----- */
 .aside-section{
-    padding: 5px 20px 20px 20px;
+    padding: 23px 28px 28px;
     border: 1px solid #dde3e8;
     background-color: #fff;
-    width: 270px;
 }
 .aside-title{
     font-weight: 700;
     font-size: 20px;
     color: #263238;
-    line-height: 3;
+    line-height: 1.5;
     border-bottom: 1px solid #dde3e8;      
     text-transform: capitalize; 
+    margin-bottom: 27px;
 }
-.aside-title{
-    margin-bottom: 20px;
+.aside-section span{
+    display: block;
+    padding-bottom: 15px;
 }
 .aside-section + .aside-section{
     margin-top: 32px;
