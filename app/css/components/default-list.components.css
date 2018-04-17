@@ -1,0 +1,26 @@
+/* default-list start */
+.default-list {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.default-list li {
+    padding-left: 20px;
+    position: relative;
+}
+
+.default-list li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f054";
+    font-weight: 900;
+    position: absolute;
+    color: #8bc34a;
+    left: 0;
+    
+}
+
+.default-list li + li {
+    margin-top: 24px;
+}
+
+/* default-list end */

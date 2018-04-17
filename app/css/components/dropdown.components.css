@@ -19,12 +19,8 @@
 .header-top .dropdown-menu {
     right: 0;
     left: auto;
-    margin-top: 27px;
+    margin-top: 25px;
 }
-
-/* #dropdown-basket .dropdown-menu .show{
-    max-width: 270px;
-} */
 
 .dropdown-item {
     padding: 13px 17px;
@@ -144,3 +140,25 @@ a.dropdown-item:focus, a.dropdown-item:hover .item-icon {
 }
 
 /* dropdown end */
+
+/* Adptive start */
+
+@media (max-width: 575px) {
+    .dropdown-menu .item-amount {
+        font-size: 12px;
+    }
+    .dropdown-menu .item-info .item-name {
+        font-size: 11px;
+    }
+    .dropdown-menu .btn-custom.btn-small {
+        font-size: 9px;
+    }
+    .dropdown-menu {
+        max-width: 220px;
+    }
+    .dropdown-item .dropdown-card {
+        min-width: 200px;
+    }
+}
+
+/* Adaptive end */

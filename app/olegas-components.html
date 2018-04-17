@@ -29,7 +29,7 @@
     <header class="not-logined" id="header">
         <div class="header-top">
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
+                <nav class="navbar navbar-expand-md navbar-light">
                     <a class="navbar-brand" href="#">
                         <img src="img/header-logo.png" alt="logo">
                     </a>
@@ -184,16 +184,17 @@
                                 <span class="fa fa-chevron-down dropdown"></span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdown-user">
-                                <ul class="list-down">
-                                    <li>a</li>
-                                    <li>a</li>
-                                    <li>a</li>
-                                    <li>a</li>
-                                    <li>a</li>
-                                    <li>a</li>
-                                    <li>a</li>
-                                    <li>a</li>
+                                <ul class="default-list dropdown-item">
+                                    <li><a href="#">Profile Page</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Account Setting</a></li>
+                                    <li><a href="#">Downloads</a></li>
+                                    <li><a href="#">Wishlist</a></li>
+                                    <li><a href="#">Upload Item</a></li>
+                                    <li><a href="#">Statement</a></li>
+                                    <li><a href="#">Withdraws</a></li>
                                 </ul>
+                                <!-- / default-list -->
                             </div>
                         </div>
                         <!-- / user-info -->
@@ -213,13 +214,13 @@
         <!-- / header-top -->
         <div class="header-bottom">
             <div class="container">
-                <nav class="navbar navbar-expand-lg">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
                             <li class="nav-item">
                                 <a href="#" class="nav-link">Home</a>
                             </li>
@@ -262,6 +263,249 @@
         <!-- / header-bottom -->
     </header>
     <!-- Header end -->
+
+    <!-- Header LOGINED -->
+    <div class="container">
+        <p class="my-4">Шапка с классом logined - второе состояние шапки</p>
+    </div>
+    <header class="logined" id="header">
+        <div class="header-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/header-logo.png" alt="logo">
+                    </a>
+                    <div class="navbar-collapse">
+                        <span class="navbar-text ml-auto">
+                            <span class="text-danger">Need help?</span> Talk to an expert: +61 3 8376 6284
+                        </span>
+                        <!-- / navbar-text -->
+                        <ul class="user-notification nav">
+                            <li class="dropdown for-logined">
+                                <a href="#" class="dropdown-toggle far fa-bell dropdown-bell" id="dropdown-bell" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="value">8</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-bell">
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-category">Need WP Help!</span>
+                                                <span class="item-date">01 Dec, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-bell"></span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-category">Need WP Help!</span>
+                                                <span class="item-date">26 Nov, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-bell"></span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-category">Psd Template Help!</span>
+                                                <span class="item-date">26 Nov, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-bell"></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="dropdown for-logined">
+                                <a href="#" class="dropdown-toggle far fa-envelope dropdown-envelope" id="dropdown-envelope" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="value">5</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-envelope">
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">Kazi Fahim</span>
+                                                <span class="item-category">Need WP Help!</span>
+                                                <span class="item-date">01 Dec, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-envelope"></span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">Richi Lenal</span>
+                                                <span class="item-category">Need WP Help!</span>
+                                                <span class="item-date">26 Nov, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-envelope"></span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">PsdBosS</span>
+                                                <span class="item-category">Psd Template Help!</span>
+                                                <span class="item-date">26 Nov, 2016</span>
+                                            </div>
+                                            <span class="item-icon fas fa-reply"></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle fas fa-cart-plus dropdown-basket" id="dropdown-basket" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="value">8</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-basket">
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">Grand Ballet</span>
+                                                <span class="item-category">WordPress</span>
+                                                <span class="item-price">$59</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">Apple Device</span>
+                                                <span class="item-category">WordPress</span>
+                                                <span class="item-price">$59</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="dropdown-item">
+                                        <div class="item-amount">
+                                            <span class="total">Total</span>
+                                            <span class="price ml-auto">$118</span>
+                                        </div>
+                                        <div class="btn-row">
+                                            <button class="btn-custom btn-small btn-success">Go to Cart</button>
+                                            <button class="btn-custom btn-small btn-danger">Go to Checkout</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- / user-nitification -->
+                        <div class="user-info dropdown for-logined">
+                            <a href="#" class="dropdown-toggle" id="dropdown-user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="user-img">
+                                    <img src="" alt="">
+                                </div>
+                                <!-- / user-img -->
+                                <div class="user-info-text">
+                                    <span class="user-name">Mike Hussy</span>
+                                    <span class="user-price">$171.00</span>
+                                </div>
+                                <span class="fa fa-chevron-down dropdown"></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-user">
+                                <ul class="default-list dropdown-item">
+                                    <li><a href="#">Profile Page</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Account Setting</a></li>
+                                    <li><a href="#">Downloads</a></li>
+                                    <li><a href="#">Wishlist</a></li>
+                                    <li><a href="#">Upload Item</a></li>
+                                    <li><a href="#">Statement</a></li>
+                                    <li><a href="#">Withdraws</a></li>
+                                </ul>
+                                <!-- / default-list -->
+                            </div>
+                        </div>
+                        <!-- / user-info -->
+                        <div class="header-buttons">
+                            <button class="btn-custom btn-small btn-success rounded logined">Login</button>
+                            <button class="btn-custom btn-small btn-danger rounded logined">Register</button>
+                            <button class="btn-custom btn-small btn-danger rounded for-logined">Logout</button>
+                        </div>
+                        <!-- / header-buttons -->
+                    </div>
+                    <!-- / navbar-collapse -->
+                </nav>
+                <!-- / navbar -->
+            </div>
+            <!-- / container -->
+        </div>
+        <!-- / header-top -->
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">WordPress</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Joomla</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">PSD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Plugins</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Components</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Help</a>
+                            </li>
+                        </ul>
+                        <!-- / navbar-nav -->
+                    </div>
+                    <!-- / collapse -->
+                </nav>
+                <!-- / header-nav -->
+            </div>
+            <!-- / container -->
+        </div>
+        <!-- / header-bottom -->
+    </header>
+    <!-- Header end -->
+
     <!-- Buttons start -->
     <div class="container">
         <div class="my-4">
@@ -294,7 +538,8 @@
         <p>Dropdown из хедера</p>
         <ul class="user-notification nav my-4">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle far fa-bell dropdown-bell" id="dropdown-bell" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a href="#" class="dropdown-toggle far fa-bell dropdown-bell" id="dropdown-bell" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
                     <span class="value">8</span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdown-bell">
@@ -337,7 +582,8 @@
                 </div>
             </li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle far fa-envelope dropdown-envelope" id="dropdown-envelope" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a href="#" class="dropdown-toggle far fa-envelope dropdown-envelope" id="dropdown-envelope" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
                     <span class="value">5</span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdown-envelope">
@@ -383,7 +629,8 @@
                 </div>
             </li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle fas fa-cart-plus dropdown-basket" id="dropdown-basket" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a href="#" class="dropdown-toggle fas fa-cart-plus dropdown-basket" id="dropdown-basket" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
                     <span class="value">8</span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdown-basket">
@@ -424,8 +671,50 @@
                 </div>
             </li>
         </ul>
+        <div class="user-info dropdown for-logined">
+            <a href="#" class="dropdown-toggle" id="dropdown-user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="user-img">
+                    <img src="" alt="">
+                </div>
+                <!-- / user-img -->
+                <div class="user-info-text">
+                    <span class="user-name">Mike Hussy</span>
+                    <span class="user-price">$171.00</span>
+                </div>
+                <span class="fa fa-chevron-down dropdown"></span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdown-user">
+                <ul class="default-list dropdown-item">
+                    <li><a href="#">Profile Page</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Account Setting</a></li>
+                    <li><a href="#">Downloads</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="#">Upload Item</a></li>
+                    <li><a href="#">Statement</a></li>
+                    <li><a href="#">Withdraws</a></li>
+                </ul>
+                <!-- / default-list -->
+            </div>
+        </div>
+        <!-- / user-info -->
     </div>
     <!-- / Dropdown end -->
+    <!-- Default-list start -->
+    <div class="container">
+        <p class="my-4">Стандартный список с иконками</p>
+        <ul class="default-list">
+            <li><a href="#">Profile Page</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Account Setting</a></li>
+            <li><a href="#">Downloads</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Upload Item</a></li>
+            <li><a href="#">Statement</a></li>
+            <li><a href="#">Withdraws</a></li>
+        </ul>
+        <!-- / default-list end -->
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

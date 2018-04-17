@@ -144,6 +144,32 @@ blockquote {
             box-shadow: 0 1px 3px 0 rgba(182, 182, 192, .75);
 }
 /* Buttons end */
+/* default-list start */
+.default-list {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.default-list li {
+    padding-left: 20px;
+    position: relative;
+}
+
+.default-list li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f054";
+    font-weight: 900;
+    position: absolute;
+    color: #8bc34a;
+    left: 0;
+    
+}
+
+.default-list li + li {
+    margin-top: 24px;
+}
+
+/* default-list end */
 /* dropdown start */
 #dropdown-user {
     display: -webkit-box;
@@ -165,12 +191,8 @@ blockquote {
 .header-top .dropdown-menu {
     right: 0;
     left: auto;
-    margin-top: 27px;
+    margin-top: 25px;
 }
-
-/* #dropdown-basket .dropdown-menu .show{
-    max-width: 270px;
-} */
 
 .dropdown-item {
     padding: 13px 17px;
@@ -290,6 +312,28 @@ a.dropdown-item:focus, a.dropdown-item:hover .item-icon {
 }
 
 /* dropdown end */
+
+/* Adptive start */
+
+@media (max-width: 575px) {
+    .dropdown-menu .item-amount {
+        font-size: 12px;
+    }
+    .dropdown-menu .item-info .item-name {
+        font-size: 11px;
+    }
+    .dropdown-menu .btn-custom.btn-small {
+        font-size: 9px;
+    }
+    .dropdown-menu {
+        max-width: 220px;
+    }
+    .dropdown-item .dropdown-card {
+        min-width: 200px;
+    }
+}
+
+/* Adaptive end */
 /* Header NOT-LOGINED */
 #header.not-logined .for-logined {
     display: none;
@@ -298,7 +342,6 @@ a.dropdown-item:focus, a.dropdown-item:hover .item-icon {
 #header.logined .logined {
     display: none;
 }
-
 /* Header start */
 .container {
     max-width: 1200px;
@@ -413,7 +456,6 @@ a.dropdown-item:focus, a.dropdown-item:hover .item-icon {
     display: block;
     padding: 0 5px;
     margin-left: 10px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.42;
@@ -430,6 +472,13 @@ a.dropdown-item:focus, a.dropdown-item:hover .item-icon {
 .user-info .fa {
     line-height: 1.45;
     margin-left: 7px;
+}
+
+.header-top .default-list {
+    font-size: 12px;
+    line-height: 1.4;
+    color: #546e7a;
+    padding: 25px 17px;
 }
 
 .header-top .btn-custom {
@@ -453,11 +502,99 @@ a.dropdown-item:focus, a.dropdown-item:hover .item-icon {
 
 #header .header-bottom .navbar-nav li a {
     padding: 0;
+    color: inherit;
+}
+
+#header .header-bottom .navbar-nav li a:hover {
+    color: #95c85a;
 }
 
 .header-bottom .navbar-nav li + li {
     margin-left: 35px;
 } 
+
+.bg-dark {
+    background-color: #263238!important;
+    /* ЗАГНАТЬ в РЕСЕТ??? */
+}
+
 /* Header end */
 
+/* Adaptive start */
+
+
+@media (max-width: 991px) {
+    .navbar-expand-md {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .header-bottom .navbar-nav li + li {
+        margin-left: 20px;
+    } 
+}
+
+@media (max-width: 767px) {
+    .not-logined .header-top .user-notification li {
+        margin-left: 0;
+    }
+
+    .navbar-brand {
+        margin: 0 auto 10px;
+    }
+
+    .header-top .navbar-collapse {
+        text-align: center;
+    }
+
+    .header-top .navbar-collapse .navbar-text {
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+    .header-top .user-notification, 
+    .header-top .user-info {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin: 0 auto 10px;
+    }
+
+    .header-top .user-notification li:first-child {
+        margin-left: 0;
+    }
+
+    .header-top .dropdown-menu {
+        left: auto;
+        right: auto;
+        margin-top: 10px;
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+
+    .user-info .dropdown-menu {
+        -webkit-transform: none;
+                transform: none;
+    }
+    .header-bottom .navbar-nav {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .header-bottom .navbar-nav li {
+        border-bottom: 1px solid #95c85a;
+    }
+
+    .header-bottom .navbar-nav li + li {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 577px) {
+    .header-top .navbar-text {
+        max-width: 220px;
+    }
+}
+/* Adaptive end */
 
