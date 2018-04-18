@@ -1,0 +1,13 @@
+/* Default-section start */
+.default-section {
+    padding: 110px 0;
+}
+
+.default-section.bg-black {
+    background-color: #263238;
+}
+
+.default-section.bg-grey {
+    background-color: #f4f6f5;
+}
+/* Default-section end */
