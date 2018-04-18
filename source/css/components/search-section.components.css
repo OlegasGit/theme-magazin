@@ -8,16 +8,10 @@
     /* отступ до секции хлебные крошки */
 }
 .search-section.big-search{
-    height: 535px;
+    min-height: 535px;
 }
 .search-section.small-search{
-    height: 230px;
-}
-.search-section .container{
-    height: 100%;
-}
-.search-section .row{
-    height: 100%;
+    min-height: 230px;
 }
 .search-section h1{
     color: #fff;
@@ -26,15 +20,16 @@
     font-size: 48px;
     margin-bottom: 30px;
 }
-.search-section h2{
+.search-section span{
     color: #fff;
     text-transform: capitalize;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 55px;
+    display: block;
 }
-.search-section.small-search h2{
+.search-section.small-search span{
     margin-bottom: 25px;
 }
 .search-form{
@@ -61,7 +56,7 @@
     color: #90a4ae;
     background-color: #fff;
 }
-.search-section i{
+.search-form i{
     position: absolute;
     top: 50%;
     right: 20px;
