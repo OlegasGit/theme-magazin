@@ -1,4 +1,4 @@
 node_modules
 .vsc
 package-lock.json
-style.css
+app/css/style.css

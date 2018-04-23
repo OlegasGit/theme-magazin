@@ -1,0 +1,36 @@
+/* Free monthly card start */
+.free-monthly-card {
+    background-color: #f8f8f8;
+}
+.free-monthly-card img {
+    width: 100%;
+}
+
+.free-monthly-card .monthly-info {
+    padding: 35px 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    color: #263238;
+}
+
+.free-monthly-card .monthly-info span {
+    text-transform: capitalize;
+}
+
+/* Adaptive */
+@media (max-width: 991px) {
+    .free-monthly-card .monthly-info {
+        font-size: 18px;
+    }
+}
+@media (max-width: 767px) {
+    .free-monthly-card {
+        max-width: 350px;
+        margin: 0 auto 50px;
+    }
+}
+
+
+/* Free monthly card end */
