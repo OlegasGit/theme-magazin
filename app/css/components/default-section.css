@@ -10,4 +10,17 @@
 .default-section.bg-grey {
     background-color: #f4f6f5;
 }
+
+.default-section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #263238;
+    text-transform: capitalize;
+    line-height: 1.66;
+    margin-bottom: 55px;
+    text-align: center;
+}
+.default-section-title.title-white {
+    color: #fff;
+}
 /* Default-section end */
