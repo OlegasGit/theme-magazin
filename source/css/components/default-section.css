@@ -23,4 +23,22 @@
 .default-section-title.title-white {
     color: #fff;
 }
+
+@media (max-width: 767px) {
+    .default-section-title {
+        font-size: 30px;
+    }
+    .default-section {
+        padding: 70px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .default-section-title {
+        font-size: 25px;
+    }
+    .default-section {
+        padding: 30px 0;
+    }
+}
 /* Default-section end */
