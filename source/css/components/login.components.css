@@ -94,3 +94,33 @@
     color: #263238;
 }
 /* Login end */
+
+/* Adaptive start */
+@media(max-width: 576px){
+    #loginModal .modal-content{
+        padding: 50px 30px 60px;
+    }
+    #loginModal .close{
+        top: -30px;
+        right: 1px;
+    }
+    #loginModal .login-btn-group a{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    #loginModal .login-btn-group button{
+        width: 100%;
+    }
+    #loginModal .login-btn-group i{
+        padding-right: 10px;
+        padding-left: 0;
+    }
+} 
+@media(max-width: 479px){
+    #loginModal .login-btn-group a{
+        font-size: 16px;
+    }   
+}
+/* Adaptive end */

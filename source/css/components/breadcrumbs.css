@@ -1,14 +1,15 @@
 /* ----- Breadcrumbs start ----- */
+.breadcrumb-section{
+    padding: 45px 0;
+}
 .breadcrumb-item + .breadcrumb-item::before{
     content: "-";
     color: #8bc34a;
 }
-
 .breadcrumb{
     font-size: 15px;
     padding: 0;
-    margin-bottom: 45px; 
-    /* отступ до секции aside */
+    margin-bottom: 0px; 
     background-color: transparent;
 }
 .breadcrumb-item{
@@ -20,4 +21,12 @@
 .breadcrumb-item.active{
     color: #263238;
 }
-/* ----- Breadcrumbs end ----- */
+/* Breadcrumbs end */
+
+/* Adaptive start */
+@media(max-width: 479px){
+    .breadcrumb{
+        display: none;
+    }
+}
+/* Adaptive end */

@@ -1,4 +1,4 @@
-/* ----- Pagination start ----- */
+/* Pagination start */
 .pagination{
     margin-top: 60px;
 }
@@ -28,4 +28,18 @@
     background-color: #e74c3c;
 }
 
-/* ----- Pagination end ----- */
+/* Pagination end */
+
+/* Adaptive start */
+@media(max-width: 767px){
+    .page-link{
+        padding: 4px 12px;
+    }
+}
+@media(max-width: 576px){
+    .page-link{
+        padding: 3px 9px;
+        font-size: 13px;
+    }
+}
+/* Adaptive end */

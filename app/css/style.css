@@ -86,18 +86,75 @@ blockquote {
 .aside-section + .aside-section{
     margin-top: 32px;
 }
+
+/* Добавить в ресет ресета */
+body.overflow{
+    overflow: hidden;
+}
+#main{
+    overflow: hidden;
+}
+
 /* ----- Aside section end ----- */
+
+/* Adaptive start */
+@media(max-width: 991px){
+    .mobile-aside{
+        position: fixed;
+        top: 15px;
+        left: 0;
+        z-index: 999;
+        -webkit-transition: all .2s ease-in;
+        transition: all .2s ease-in;
+        height: 100vh;
+        overflow-y: auto;
+    }
+    .mobile-aside.left{
+        -webkit-transform: translateX(-110%);
+                transform: translateX(-110%);
+    }
+    .mobile-aside.right{
+        left: auto;
+        right: 30px;
+        -webkit-transform: translateX(110%);
+                transform: translateX(110%);
+    }
+    .overlay{
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        background-color: rgba(0, 0, 0, .4);
+        z-index: -1;
+        -webkit-transition: all .2s ease-in;
+        transition: all .2s ease-in;
+    }
+    #main.show-aside .mobile-aside.left,
+    #main.show-aside .mobile-aside.right{
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+    }
+    #main.show-aside .overlay{
+        z-index: 998;
+        opacity: 1;
+    }
+}
+
+/* Adaptive end */
 /* ----- Breadcrumbs start ----- */
+.breadcrumb-section{
+    padding: 45px 0;
+}
 .breadcrumb-item + .breadcrumb-item::before{
     content: "-";
     color: #8bc34a;
 }
-
 .breadcrumb{
     font-size: 15px;
     padding: 0;
-    margin-bottom: 45px; 
-    /* отступ до секции aside */
+    margin-bottom: 0px; 
     background-color: transparent;
 }
 .breadcrumb-item{
@@ -109,8 +166,184 @@ blockquote {
 .breadcrumb-item.active{
     color: #263238;
 }
-/* ----- Breadcrumbs end ----- */
+/* Breadcrumbs end */
 
+/* Adaptive start */
+@media(max-width: 479px){
+    .breadcrumb{
+        display: none;
+    }
+}
+/* Adaptive end */
+
+/* Forms start */
+.content-wrapper-bordered{
+    background-color: #fff;
+    border: 1px solid #dedede;
+}
+.content-wrapper-bordered .content-wrapper-title{
+    padding: 20px 34px;
+    border-bottom: 1px solid #dedede;
+}
+.content-wrapper-bordered .content-wrapper-title h6{
+    font-size: 24px;
+    color: #263238;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.content-wrapper-bordered .content-wrapper-body{
+    padding: 35px 34px 80px;
+}
+.content-wrapper-bordered .content-wrapper-body .col-form-label{
+    text-transform: capitalize;
+    color: #444;
+    font-size: 15px;
+    position: relative;
+}
+.form-control{
+    border: 1px solid #dcdcdc;
+    background-color: #f9f9f9;
+    border-radius: 0;
+    height: 40px;
+    padding: 5px 16px;
+}
+.form-group{
+    margin-bottom: 0;
+}
+.form-group:not(:first-of-type){
+    margin-top: 22px;
+}
+.form-control:focus{
+    -webkit-box-shadow: 0 2px 3px rgba(111, 111, 111, 0.75);
+            box-shadow: 0 2px 3px rgba(111, 111, 111, 0.75);
+    border-color: #dcdcdc;
+    background-color: #f9f9f9;
+}
+.jq-selectbox {
+    width: 100%;
+}
+.jq-selectbox.focused .jq-selectbox__select{
+    border: 1px solid #dcdcdc;
+}
+.jq-selectbox__select{
+    border: 1px solid #dcdcdc;
+    background: #f9f9f9;
+    border-radius: 0;
+    height: 40px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding: 0 40px 0 15px;
+    line-height: 40px;
+}
+.jq-selectbox .placeholder{
+    font-size: 15px;
+    color: #707070;
+    text-transform: capitalize;
+    font-family: 'Roboto';
+}
+.jq-selectbox li{
+    font-size: 15px;
+    color: #707070;
+    text-transform: capitalize;
+    font-family: 'Roboto';
+}
+.jq-selectbox__select:hover{
+    background: #f9f9f9;
+}
+.jq-selectbox__trigger{
+    border-left: none;
+    width: 40px;
+}
+.jq-selectbox__trigger-arrow{
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border-top-color: #000;
+}
+.content-wrapper-bordered .content-wrapper-body.product-form{
+    padding: 45px 45px 68px;
+}
+.col-form-label span{
+    color: #8bc34a;
+    font-size: 10px;
+    margin-left: 3px;
+    position: absolute;
+}
+.content-wrapper-bordered .content-wrapper-body textarea.form-control{
+    min-height: 150px;
+}
+.form-control::-webkit-input-placeholder {
+    color: #707070;
+    font-size: 15px;
+}   
+.form-control:-moz-placeholder { /* Firefox 18- */
+    color: #707070;
+    font-size: 15px; 
+}  
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+    color: #707070;
+    font-size: 15px; 
+}  
+.form-control:-ms-input-placeholder {  
+    color: #707070;
+    font-size: 15px; 
+}
+.jq-file{
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    width: 100%;
+    border-radius: 0;
+}
+.jq-file.focused .jq-file__name{
+    border: 1px solid #dedede;
+}
+.jq-file__name{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px 0 104px;
+    border: 1px solid #dedede;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background-color: #f9f9f9;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    color: #707070;
+    text-transform: capitalize;
+}
+.jq-file__browse{
+    top: 7px;
+    right: auto;
+    left: 10px;
+    border-left: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    line-height: 26px;
+    height: 26px;
+    background-image: none;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #444;
+}
+/* Forms end */
+
+/* Adaptive start */
+@media(max-width: 767px){
+    .content-wrapper-bordered .content-wrapper-body.product-form{
+        padding: 20px 20px 40px;
+    }
+    .content-wrapper-bordered .content-wrapper-body{
+        padding: 20px 20px 50px;
+    }
+}
+/* Adaptive end */
 /* Login start */
 #loginModal .modal-dialog{
     max-width: 730px;
@@ -209,7 +442,37 @@ blockquote {
     color: #263238;
 }
 /* Login end */
-/* ----- Pagination start ----- */
+
+/* Adaptive start */
+@media(max-width: 576px){
+    #loginModal .modal-content{
+        padding: 50px 30px 60px;
+    }
+    #loginModal .close{
+        top: -30px;
+        right: 1px;
+    }
+    #loginModal .login-btn-group a{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    #loginModal .login-btn-group button{
+        width: 100%;
+    }
+    #loginModal .login-btn-group i{
+        padding-right: 10px;
+        padding-left: 0;
+    }
+} 
+@media(max-width: 479px){
+    #loginModal .login-btn-group a{
+        font-size: 16px;
+    }   
+}
+/* Adaptive end */
+/* Pagination start */
 .pagination{
     margin-top: 60px;
 }
@@ -241,15 +504,27 @@ blockquote {
     background-color: #e74c3c;
 }
 
-/* ----- Pagination end ----- */
+/* Pagination end */
+
+/* Adaptive start */
+@media(max-width: 767px){
+    .page-link{
+        padding: 4px 12px;
+    }
+}
+@media(max-width: 576px){
+    .page-link{
+        padding: 3px 9px;
+        font-size: 13px;
+    }
+}
+/* Adaptive end */
 /* ----- Search section start ----- */
 .search-section{
     background-image: url("../img/inner-img.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
     background-size: cover;
-    margin-bottom: 40px;  
-    /* отступ до секции хлебные крошки */
 }
 .search-section.big-search{
     min-height: 535px;
@@ -324,8 +599,44 @@ blockquote {
             box-shadow: 1px 1px 25px rgba(1, 1, 1, 0.45);
 }
 
-
 /* ----- Search section end ----- */
 
+/* Adaptive start */
+@media(max-width: 991px){
+    .search-section h1{
+        font-size: 40px;
+    }
+}
+@media(max-width: 767px){
+    .search-section.big-search{
+        min-height: 335px;
+    }
+    .search-section h1{
+        font-size: 33px;
+    }
+    .search-section span{
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+    .form-control-search{
+        height: 40px;
+        padding-right: 40px;
+    }
+    .search-form i{
+        font-size: 15px;
+        right: 10px;
+    }
+}
+@media(max-width: 576px){
+    .search-section h1{
+        font-size: 29px;
+    }   
+}
+/* Adaptive end */
 
 
+/* Upload products start */
+.content-wrapper-bordered .content-wrapper-title.product-title{
+    padding-top: 0;
+}
+/* Upload products end */

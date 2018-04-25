@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:700%7COpen+Sans:400,600%7CRaleway:400,700%7CRoboto:400,500,700,900" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- Formstyler CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.theme.css">
+   
+    <link rel="stylesheet" href="css/style.css">
+    <title>Foxtar</title>
+</head>
+<body>
+    <main id="main">
+        <section class="search-section small-search text-center d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-10 col-xl-8 m-auto">
+                        <span>Premium WordPress Themes, Web Templates and Many More ...</span>
+                        <form class="search-form m-auto">
+                            <input type="text" name="Search Your Keywords . . ." class="form-control-search" placeholder="Search Your Keywords . . .">
+                            <i class="fas fa-search"></i>   
+                        </form>
+                    </div>
+                    <!-- / col-8 -->
+                </div>
+                <!-- / row -->
+            </div>
+            <!-- / container -->
+        </section>
+        <!-- / section small-search -->
+        <section class="breadcrumb-section">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Upload product</li>
+                    </ol>
+                </nav>
+            </div>    
+        <!-- / container -->
+        </section>
+        <!-- /breadcrumb -->
+        <section class="form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content-wrapper-bordered">
+                            <div class="content-wrapper-title">
+                                 <h6>Upload your item</h6>
+                            </div>
+                            <div class="content-wrapper-body product-form">
+                                <div class="form-group row">
+                                    <label for="selectCategories" class="col-12 col-md-3 col-lg-4 col-form-label">Select categories<span>*</span></label>
+                                    <div class="col-12 col-md-9 col-lg-8">
+                                        <select id="selectCategories" name="selectCategory" data-placeholder="Select">
+                                            <option></option>
+                                            <option value="category1">Category 1</option>
+                                            <option value="category2">Category 2</option>
+                                            <option value="category3">Category 3</option>
+                                        </select>
+                                    </div>
+                                </div>  
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="productName" class="col-12 col-md-3 col-lg-4 col-form-label">Product name<span>*</span></label>
+                                    <div class="col-12 col-md-9 col-lg-8">
+                                        <input type="text" class="form-control" id="productName" placeholder="Enter your product name here ...">
+                                    </div>
+                                </div>
+                                 <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="productDescription" class="col-12 col-md-3 col-lg-4 col-form-label">Product description<span>*</span></label>
+                                    <div class="col-12 col-md-9 col-lg-8">
+                                        <textarea type="text" class="form-control" id="productDescription" placeholder="<h1> Type your text here </h1/>"></textarea>
+                                    </div>
+                                </div>
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="uploadFile" class="col-12 col-md-3 col-lg-4 col-form-label">Upload main file<span>*</span></label>
+                                    <div class="col-12 col-md-9 col-lg-8">
+                                        <input type="file" name="uploadScreenshots" data-browse="choose file" data-placeholder="no file chosen" id="uploadFile">
+                                    </div>
+                                </div>  
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="uploadScreenshots" class="col-12 col-md-3 col-lg-4 col-form-label">Upload screenshots<span>*</span></label>
+                                    <div class="col-12 col-md-9 col-lg-8">
+                                        <input type="file" name="uploadScreenshots" data-browse="choose file" data-placeholder="no file chosen" id="uploadScreenshots">
+                                    </div>
+                                </div>
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="fileIncluded" class="col-12 col-md-3 col-lg-4 col-form-label">File included<span>*</span></label>
+                                    <div class="col-12 col-md-9 col-lg-8">
+                                        <select id="fileIncluded" name="fileIncluded" data-placeholder="Select file type">
+                                            <option></option>
+                                            <option value="type1">Type 1</option>
+                                            <option value="type2">Type 2</option>
+                                            <option value="type3">Type 3</option>
+                                        </select>
+                                    </div>
+                                </div>    
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="fileDimensions" class="col-12 col-md-3 col-lg-4 col-form-label">File dimensions<span>*</span></label>
+                                    <div class="col-12 col-md-9 col-lg-8">
+                                        <input type="text" class="form-control" id="fileDimensions" placeholder="Enter the item dimensions here ...">
+                                    </div>
+                                </div> 
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="itemTags" class="col-12 col-md-3 col-lg-4 col-form-label">Item tags<span>*</span></label>
+                                    <div class="col-12 col-md-9 col-lg-8">
+                                        <input type="text" class="form-control" id="itemTags" placeholder="Enter tag here">
+                                    </div>
+                                </div> 
+                                <!-- / form-group-row -->  
+                            </div>
+                            <!-- / content-wrapper-body -->
+                            <div class="content-wrapper-title product-title">
+                                <h6>Set your price (US$)</h6>
+                            </div>   
+                            <div class="content-wrapper-body product-form">
+                                <div class="form-group row">
+                                    <label for="productName" class="col-12 col-md-3 col-lg-4 col-form-label">Regular license<span>*</span></label>
+                                    <div class="col-12 col-md-9 col-lg-8">
+                                        <input type="text" class="form-control" id="productName" placeholder="$00.00">
+                                    </div>
+                                </div>
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="productName" class="col-12 col-md-3 col-lg-4 col-form-label">Extendede license<span>*</span></label>
+                                    <div class="col-12 col-md-9 col-lg-8">
+                                        <input type="text" class="form-control" id="productName" placeholder="$00.00">
+                                    </div>
+                                </div>
+                                <!-- / form-group-row -->
+                            </div>
+                            <!-- / content-wrapper-body -->
+                        </div>
+                        <!-- / content-wrapper-bordered -->
+                    </div>
+                    <!-- /col-12 -->
+                </div>
+                <!-- / row -->
+            </div>
+            <!-- / container -->
+        </section>
+        <!-- / form-section -->
+
+    </main>
+
+<!-- Optional JavaScript -->
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+ crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+ crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+ crossorigin="anonymous"></script>
+ <script src="js/aside.js"></script>
+ <!-- formstyler -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
+ 
+ <!-- Init plugins -->
+ <script src="js/init.js"></script>
+ 
+ 
+ </body>    
+ </html>

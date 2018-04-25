@@ -15,6 +15,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+
+    <!-- Formstyler CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.theme.css">
+   
     <link rel="stylesheet" href="css/style.css">
     <title>Foxtar</title>
 </head>
@@ -24,7 +29,7 @@
         <section class="search-section big-search text-center d-flex align-items-center">
             <div class="container">
                <div class="row">
-                   <div class="col-8 offset-2">
+                   <div class="col-12 col-lg-10 col-xl-8 m-auto">
                         <h1>Welcome To Foxtar Market Place!</h1>
                         <span>Premium WordPress Themes, Web Templates and Many More ...</span>
                         <form class="search-form m-auto">
@@ -42,7 +47,7 @@
         <section class="search-section small-search text-center d-flex align-items-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-8 offset-2">
+                    <div class="col-12 col-lg-10 col-xl-8 m-auto">
                         <span>Premium WordPress Themes, Web Templates and Many More ...</span>
                         <form class="search-form m-auto">
                             <input type="text" name="Search Your Keywords . . ." class="form-control-search" placeholder="Search Your Keywords . . .">
@@ -57,38 +62,43 @@
         </section>
         <!-- / section small-search -->
         <!-- Breadcrumbs start  --> 
-        <div class="container">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Product Page</li>
-                </ol>
-            </nav>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Product Page GT Builder Constraction</li>
-                </ol>
-            </nav>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Settings</li>
-                </ol>
-            </nav>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Withdrawals</li>
-                </ol>
-            </nav>
-        </div>
+        <section class="breadcrumb-section">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Product Page</li>
+                    </ol>
+                </nav>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Product Page</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">GT Builder Constraction</li>
+                    </ol>
+                </nav>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Settings</li>
+                    </ol>
+                </nav>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Withdrawals</li>
+                    </ol>
+                </nav>
+            </div>
+        </section>      
         <!-- / Breadcrumbs end   -->       
-        <!-- Aside section start-->
+        <!-- Aside section start-->  
         <aside class="aside aside-left">
             <div class="container">
-                <div class="row">
-                    <div class="col-3">
+                <!-- Секция overlay для адаптива --> 
+                <div class="overlay"></div> 
+                <div class="row">    
+                    <div class="col-12 col-md-8 col-lg-3 mobile-aside left">           
                         <section class="aside-section">
                             <span class="aside-title">Categories</span>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum molestias nihil, fuga voluptates natus aliquid nam pariatur rerum voluptatum aperiam neque, tempore porro exercitationem beatae. Repellendus fuga aspernatur temporibus?</p>
@@ -106,6 +116,13 @@
                         <!-- aside-section -->
                     </div>
                     <!-- / col-3 -->
+                    <!-- Добавила секцию для отображения кнопки для aside -->
+                    <div class="col-12 col-lg-9">
+                        <!-- Кнопка для адаптива -->
+                        <button class="mobile-aside-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
                 </div>  
                 <!-- / row -->
             </div>    
@@ -164,7 +181,114 @@
         <h1>modal-dialog</h1>
         <button class="btn-custom btn-small btn-success rounded" data-toggle="modal" data-target="#loginModal">Login</button>
         <!-- / login end -->
-            
+        <section class="form-section">
+            <div class="container">
+                <div class="overlay"></div>
+                <button class="mobile-aside-toggle">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="row">
+                    <div class="col-12 col-md-8 col-lg-3 mobile-aside left"></div>
+                    <div class="col-12 col-lg-9">
+                        <div class="content-wrapper-bordered">
+                            <div class="content-wrapper-title">
+                                <h6>Personal info</h6>
+                            </div>
+                            <div class="content-wrapper-body">
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="firstName" class="col-12 col-md-3 col-lg-4 col-form-label">First name</label>
+                                        <div class="col-12 col-md-9 col-lg-8">
+                                            <input type="text" class="form-control" id="firstName" value="">
+                                        </div>
+                                    </div>
+                                    <!-- / form-group-row -->
+                                    <div class="form-group row">
+                                        <label for="lastName" class="col-12 col-md-3 col-lg-4 col-form-label">Last name</label>
+                                        <div class="col-12 col-md-9 col-lg-8">
+                                            <input type="text" class="form-control" id="lastName" value="">
+                                        </div>
+                                    </div>
+                                    <!-- / form-group-row -->
+                                    <div class="form-group row">
+                                        <label for="selecrCountry" class="col-12 col-md-3 col-lg-4 col-form-label">Country</label>
+                                        <div class="col-12 col-md-9 col-lg-8">
+                                            <select id="selectCountry" name="selectCountry" data-placeholder="Select your country">
+                                                <option></option>
+                                                <option value="ukraine">Ukraine</option>
+                                                <option value="canada">Canada</option>
+                                                <option value="france">France</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!-- / form-group-row -->
+                                </form>
+                            </div>
+                            <!-- / content-wrapper-body -->
+                        </div>
+                        <!-- / content-wrapper-bordered -->
+                    </div>
+                    <!-- / col-9 -->
+                </div>
+                <!-- / row -->
+            </div>
+            <!-- / container -->
+        </section>
+        <!-- /form-section -->
+        <section class="form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content-wrapper-bordered">
+                            <div class="content-wrapper-title">
+                                <h6>Upload your item</h6>
+                            </div>
+                            <div class="content-wrapper-body product-form">
+                                <div class="form-group row">
+                                    <label for="selectCategories" class="col-12 col-md-3 col-lg-4 col-form-label">Select categories<span>*</span></label>
+                                    <div class="col-12 col-md-9 col-lg-8">
+                                        <select id="selectCategories" name="selectCategory" data-placeholder="Select">
+                                            <option></option>
+                                            <option value="category1">Category 1</option>
+                                            <option value="category2">Category 2</option>
+                                            <option value="category3">Category 3</option>
+                                        </select>
+                                    </div>
+                                </div>  
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="productName" class="col-12 col-md-3 col-lg-4 col-form-label">Product name<span>*</span></label>
+                                     <div class="col-12 col-md-9 col-lg-8">
+                                        <input type="text" class="form-control" id="productName" placeholder="Enter your product name here ...">
+                                    </div>
+                                </div>
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="productDescription" class="col-12 col-md-3 col-lg-4 col-form-label">Product description<span>*</span></label>
+                                    <div class="col-12 col-md-9 col-lg-8">
+                                        <textarea type="text" class="form-control" id="productDescription" placeholder="<h1> Type your text here </h1/>"></textarea>
+                                    </div>
+                                </div>
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="uploadFile" class="col-12 col-md-3 col-lg-4 col-form-label">Upload main file<span>*</span></label>
+                                    <div class="col-12 col-md-9 col-lg-8">
+                                        <input type="file" name="uploadScreenshots" data-browse="choose file" data-placeholder="no file chosen" id="uploadFile">
+                                    </div>
+                                </div>  
+                                <!-- / form-group-row -->
+                            </div>
+                            <!-- / content-wrapper-body -->
+                        </div>
+                        <!-- / content-wrapper-bordered -->
+                    </div>
+                    <!-- /col-12 -->
+                </div>
+                <!-- / row -->
+            </div>
+            <!-- / container -->
+        </section>
+        <!-- / form-section -->
     
     </main>
 
@@ -190,7 +314,7 @@
                         <!-- / login-form-group -->
                         <div class="login-btn-group">
                             <button type="submit" class="btn-custom btn-default font-weight-bold">Submit</button>
-                            <a href="" class="btn-custom btn-login"><i class="fas fa-edit"></i>Creat an account?</a>
+                            <a href="" class="btn-custom"><i class="fas fa-edit"></i>Creat an account?</a>
                         </div>
                         <!-- / login-btn-group -->
                         <a href="#" class="lost-password">Lost Password?</a>
@@ -212,6 +336,14 @@ crossorigin="anonymous"></script>
 crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 crossorigin="anonymous"></script>
+<script src="js/aside.js"></script>
+<!-- formstyler -->
+<script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
+
+<!-- Init plugins -->
+<script src="js/init.js"></script>
+
+
 </body>
     
 </html>
