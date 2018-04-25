@@ -1,0 +1,42 @@
+.slick-track {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-slider-item {
+    max-width: 442px;
+}
+
+.week-trending .main-slider .slick-arrow {
+    display: none;
+}
+
+.main-slider .slick-dots {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90px;
+    margin: 65px auto 0;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: #e8e8e8;
+    border-radius: 50%;
+    box-shadow: 0 1px #b1b1b1 inset;  
+}
+
+.slick-dots .slick-active button {
+    background-color: #8bc34a;
+    box-shadow: none;
+}
+/* Adaptive */
+
+@media (max-width: 565px) {
+    .slick-dots li button {
+        display: none;
+    }
+}
