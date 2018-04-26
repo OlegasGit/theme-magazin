@@ -1,0 +1,16 @@
+/* Personal info start */
+.form-section.personal-info{
+    padding-bottom: 153px;
+    position: relative;
+}
+.form-section .mobile-aside-toggle{
+    position: absolute;
+    top: -25px;
+}
+.form-section .mobile-aside-toggle .fa{
+    background-color: #f4f6f5;
+    font-size: 18px;
+    color: #707070;
+    font-weight: 700;
+}
+/* Personal info end */

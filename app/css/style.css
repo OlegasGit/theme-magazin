@@ -86,7 +86,12 @@ blockquote {
 .aside-section + .aside-section{
     margin-top: 32px;
 }
-
+.mobile-aside-toggle{
+    display: none;
+}
+button.mobile-aside-toggle{
+    outline: none;
+}
 /* Добавить в ресет ресета */
 body.overflow{
     overflow: hidden;
@@ -139,6 +144,11 @@ body.overflow{
     #main.show-aside .overlay{
         z-index: 998;
         opacity: 1;
+    }
+    .mobile-aside-toggle{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
     }
 }
 
@@ -635,7 +645,26 @@ body.overflow{
 /* Adaptive end */
 
 
+/* Personal info start */
+.form-section.personal-info{
+    padding-bottom: 153px;
+    position: relative;
+}
+.form-section .mobile-aside-toggle{
+    position: absolute;
+    top: -25px;
+}
+.form-section .mobile-aside-toggle .fa{
+    background-color: #f4f6f5;
+    font-size: 18px;
+    color: #707070;
+    font-weight: 700;
+}
+/* Personal info end */
 /* Upload products start */
+.form.upload-products{
+    padding-bottom: 110px;
+}
 .content-wrapper-bordered .content-wrapper-title.product-title{
     padding-top: 0;
 }

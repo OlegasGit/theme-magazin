@@ -1,4 +1,7 @@
 /* Upload products start */
+.form.upload-products{
+    padding-bottom: 110px;
+}
 .content-wrapper-bordered .content-wrapper-title.product-title{
     padding-top: 0;
 }
