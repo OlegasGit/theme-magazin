@@ -406,16 +406,19 @@
 /*Row card end*/
 
 /*Small card for aside section*/
-.aside-section .row {
-    display: flex;
-    flex-direction: column;
-
+.aside-section {
+    padding: 20px 28px 20px;
+    border: 1px solid #dedede;
+    background-color: #fff;
 }
 .card.small-card {
-    padding: 27px 30px;
     border: none;
     border-radius: 0;
+    padding-bottom: 27px;
     border-bottom: 1px solid #dde3e8;
+}
+.card.small-card:nth-child(n+2) {
+    margin-top: 28px;
 }
 .card.small-card .card-img {
     margin-bottom: 22px;
@@ -435,6 +438,9 @@
 }
 .card.small-card .card-author {
     padding: 0;
+}
+.card.small-card .card-author .author-name {
+    margin-left: 10px;
 }
 /*Small card for aside end*/
 
