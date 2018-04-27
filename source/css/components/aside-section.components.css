@@ -26,7 +26,7 @@
 button.mobile-aside-toggle{
     outline: none;
 }
-/* Добавить в ресет ресета */
+/* Добавить в ресет*/
 body.overflow{
     overflow: hidden;
 }
@@ -54,7 +54,7 @@ body.overflow{
         left: auto;
         right: 30px;
         transform: translateX(110%);
-    }
+    }  
     .overlay{
         position: fixed;
         top: 0;

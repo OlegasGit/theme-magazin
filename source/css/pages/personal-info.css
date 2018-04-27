@@ -1,11 +1,6 @@
 /* Personal info start */
 .form-section.personal-info{
     padding-bottom: 153px;
-    position: relative;
-}
-.form-section .mobile-aside-toggle{
-    position: absolute;
-    top: -25px;
 }
 .form-section .mobile-aside-toggle .fa{
     background-color: #f4f6f5;
