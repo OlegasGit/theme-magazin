@@ -440,8 +440,16 @@
     padding: 0;
 }
 .card.small-card .card-author .author-name {
-    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 5px;
 }
+.card.small-card .card-author .card-product-rating li {
+    font-size: 9px;
+}
+
+
+
 /*Small card for aside end*/
 
 /*Tabs for product details start*/

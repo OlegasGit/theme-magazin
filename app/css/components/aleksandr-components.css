@@ -442,21 +442,19 @@
 /*Row card end*/
 
 /*Small card for aside section*/
-.aside-section .row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-
+.aside-section {
+    padding: 20px 28px 20px;
+    border: 1px solid #dedede;
+    background-color: #fff;
 }
 .card.small-card {
-    padding: 27px 30px;
     border: none;
     border-radius: 0;
+    padding-bottom: 27px;
     border-bottom: 1px solid #dde3e8;
+}
+.card.small-card:nth-child(n+2) {
+    margin-top: 28px;
 }
 .card.small-card .card-img {
     margin-bottom: 22px;
@@ -477,6 +475,17 @@
 .card.small-card .card-author {
     padding: 0;
 }
+.card.small-card .card-author .author-name {
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.card.small-card .card-author .card-product-rating li {
+    font-size: 9px;
+}
+
+
+
 /*Small card for aside end*/
 
 /*Tabs for product details start*/
@@ -516,7 +525,6 @@
     font-size: 16px;
     font-weight: 500;
     color: #263238;
-    background-color: #f7f7f7;
 }
 .tags-product-wrapper .bottom-content {
     padding: 38px 36px 68px;
@@ -853,7 +861,134 @@
     font-weight: 400;
     color: #919699;
 }
-/*Footer end*/
+#accordion {
+    display: none;
+}
+
+
+@media (max-width: 991px) {
+    #footer .row .col-md-6:nth-child(2),
+    #footer .row .col-md-6:nth-child(5) {
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+        margin-top: 40px;
+    }
+}
+/*577px - 767px*/
+@media (max-width: 767px) {
+    #footer {
+        padding-top: 80px;
+    }
+#footer .footer-row {
+        margin-bottom: 60px;
+    }
+    #footer .row .col-md-6:nth-child(2),
+    #footer .row .col-md-6:nth-child(5),
+    #footer .row .col-md-6:nth-child(4) {
+        margin-top: 30px;
+    }
+    #footer .list-item li + li {
+        margin-top: 15px;
+    }
+    #footer .footer-row {
+        text-align: center;
+    }
+    #footer .footer-title::after {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #footer .list-item li a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    #footer .list-item .fa-chevron-right {
+        display: none;
+    }
+    #footer .contacts .contact-item {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    }
+}
+/*479px - 576px*/
+@media (max-width: 576px) {
+    #footer .row .col-md-6:nth-child(3),
+    #footer .row .col-md-6:nth-child(4) {
+        display: none;
+    }
+    #footer .footer-title::after {
+        content: "";
+        display: block;
+        width: 150px;
+        height: 2px;
+        background-color: #8bc34a;
+    }
+    #accordion {
+        display: block;
+        }
+    .accordion,
+    .accordion .card {
+        margin: 0;
+        border: none;
+        border-radius: 0;
+    }
+    .accordion .card-header {
+        background-color: #263238;
+        border-radius: 0;
+        border: none;
+        width: 100%;
+    }
+    .accordion .card-header h5 {
+        text-align: center;
+    }
+
+    .accordion .card-body {
+        background-color: #30393e;
+        border: none !important;
+    }
+    .accordion #collapseOne,
+    .accordion #collapseTwo {
+        width: 100%;
+    }
+    .accordion .card-header button {
+        font-family: 'Raleway', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    .accordion .card .list-item li + li {
+        margin-top: 25px;
+    }
+    .accordion .card .list-item .fa-chevron-right {
+        font-size: 18px;
+        color: #8bc34a;
+    }
+    .accordion .card .list-item li span {
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        color: #b7c3c8;
+        margin-left: 16px;
+    }
+    .accordion .card .list-item li span:hover {
+        color: #4e94b1;
+    }
+    .card-body:hover .card-header h5 {
+        border-bottom: none;
+    }
+    #footer .list-item {
+        margin-top: 10px;
+    }
+}
 
 
 
