@@ -501,6 +501,8 @@
         -ms-flex-direction: row;
             flex-direction: row;
     outline: 1px solid #d7d7d7;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .product-tags-nav .product-tags-item {
     -webkit-box-flex: 1;
@@ -561,6 +563,20 @@
 }
 .tags-product-wrapper .tab-item-product .default-list li a:hover {
     color: #424141;
+}
+@media (max-width: 767px) {
+    .product-tags-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        outline: 1px solid #d7d7d7;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
 }
 /*Tabs for product details end*/
 
