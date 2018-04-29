@@ -46,4 +46,5 @@ $('.grid-list').on('click', function(){
 
 
 
-
+// Select init
+$('select, input[type="file"]').styler();
