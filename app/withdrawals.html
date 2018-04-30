@@ -31,6 +31,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.theme.css">
 
+    <!-- All out styles -->
+    <link rel="stylesheet" href="../source/css/components/all-our-styles.css">
+
     <!-- Custom styles -->
     <link rel="stylesheet" href="../source/css/components/withrdawals.css">
    
@@ -330,7 +333,7 @@
         <div class="withdrawal">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <div class="content-wrapper-bordered">
                             <div class="content-wrapper-title">
                                 <h6>Withdrawals Earnings</h6>
@@ -338,38 +341,38 @@
                             <div class="content-wrapper-body">
                                 <form>
                                     <div class="form-group row">
-                                        <label for="firstName" class="col-12 col-form-label">Amount to Withdraw ($2000.00 Maximum)</label>
+                                        <label for="firstName" class="col-12 col-form-label">Amount to Withdraw ($2000.00 Maximum)<sup><i class="fas fa-asterisk"></i></sup></label>
                                         <div class="col-12">
                                             <input type="text" class="form-control" id="firstName" value="" placeholder="Enter the amount you want to withdraw...">
                                         </div>
                                     </div>
                                     <!-- / form-group-row -->
                                     <div class="form-group row">
-                                        <label for="selecrCountry" class="col-12 col-form-label">Choose your Withdraw Method</label>
+                                        <label for="selecrCountry" class="col-12 col-form-label">Choose your Withdraw Method<sup><i class="fas fa-asterisk"></i></sup></label>
                                         <div class="col-12">
                                             <select id="selectCountry" name="selectCountry" data-placeholder="Select your country" placeholder="Select Your Card">
                                                 <option></option>
-                                                <option value="ukraine">Ukraine</option>
-                                                <option value="canada">Canada</option>
-                                                <option value="france">France</option>
+                                                <option value="gold-card">Gold card</option>
+                                                <option value="kredit-card">Kredit card</option>
+                                                <option value="bonus-card">Bonus card</option>
                                             </select>
                                         </div>
                                     </div>
                                     <!-- / form-group-row -->
                                     <div class="form-group row">
-                                        <label for="selecrCountry" class="col-12 col-form-label">Your Account Name</label>
+                                        <label for="selecrCountry" class="col-12 col-form-label">Your Account Name<sup><i class="fas fa-asterisk"></i></sup></label>
                                         <div class="col-12">
-                                            <select id="selectCountry" name="selectCountry" data-placeholder="Select your country" placeholder="Select Your Card">
+                                            <select id="selectCountry" name="selectCountry" data-placeholder="Select your account name">
                                                 <option></option>
-                                                <option value="ukraine">Ukraine</option>
-                                                <option value="canada">Canada</option>
-                                                <option value="france">France</option>
+                                                <option value="ukraine">Anton</option>
+                                                <option value="canada">Oleg</option>
+                                                <option value="france">Roman</option>
                                             </select>
                                         </div>
                                     </div>
                                     <!-- / form-group-row -->
                                     <div class="form-group row">
-                                        <label for="firstName" class="col-12 col-form-label">Confirm Your Password</label>
+                                        <label for="firstName" class="col-12 col-form-label">Confirm Your Password<sup><i class="fas fa-asterisk"></i></sup></label>
                                         <div class="col-12">
                                             <input type="text" class="form-control" id="firstName" value="" placeholder="Select Your Card">
                                         </div>
@@ -379,12 +382,64 @@
                                 </form>
                             </div>
                             <!-- / content-wrapper-body -->
+                        </div>
+                        <!-- /content-wrapper-bordered -->
                     </div>
-                    <!-- /col-6 -->
-                    <div class="col-6">
-                        
+                    <!-- /col-12 -->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                        <div class="withdrawal-history">
+                            <h6>Withdrawal History</h6>
+                            <div  class="withdrawal-table">
+                                <table>
+                                    <tr>
+                                        <th>Dec 26th, 2016</th>
+                                        <th>Psdboss@paypal.com</th>
+                                        <th>$200</th>
+                                        <th>Pending</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Dec 26th, 2016</td>
+                                        <td>Psdboss@paypal.com</td>
+                                        <td>$100</td>
+                                        <td>Paid</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dec 26th, 2016</td>
+                                        <td>Psdboss@paypal.com</td>
+                                        <td>$100</td>
+                                        <td>Paid</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dec 26th, 2016</td>
+                                        <td>Psdboss@paypal.com</td>
+                                        <td>$100</td>
+                                        <td>Paid</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dec 26th, 2016</td>
+                                        <td>Psdboss@paypal.com</td>
+                                        <td>$100</td>
+                                        <td>Paid</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dec 26th, 2016</td>
+                                        <td>Psdboss@paypal.com</td>
+                                        <td>$100</td>
+                                        <td>Paid</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dec 26th, 2016</td>
+                                        <td>Psdboss@paypal.com</td>
+                                        <td>$100</td>
+                                        <td>Paid</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- /withdrawal-table -->
+                        </div>
+                        <!-- /withdrawal-history -->
                     </div>
-                    <!-- /col-6 -->
+                    <!-- /col-12 -->
                 </div>
                 <!-- /row -->
             </div>

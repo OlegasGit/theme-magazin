@@ -27,6 +27,9 @@
     <!-- jQuery UI Style -->
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
+    <!-- All our styles -->
+    <link rel="stylesheet" href="../source/css/components/all-our-styles.css">
+
     <!-- Custom styles -->
     <link rel="stylesheet" href="../source/css/components/all-new-items.css">
    
@@ -310,24 +313,28 @@
         </section>
         <!-- / section small-search -->
         <!-- Breadcrumbs start  -->
-        <nav aria-label="breadcrumb">
-            <div class="container">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Product Page</li>
-                </ol>
-            </div>
-            <!-- /container -->
-        </nav>
-        <!-- / Breadcrumbs end   -->    
+        <div class="breadcrumb-section">       
+            <nav aria-label="breadcrumb">
+                <div class="container">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Product Page</li>
+                    </ol>
+                </div>
+                <!-- /container -->
+            </nav>
+            <!-- / Breadcrumbs end   -->
+        </div>
+        <!-- /breadcrumb-section-end   -->
         <div class="main-content">
             <div class="container">
                 <div class="overlay"></div>
                 <div class="row">
-                    <div class="col-9 col-md-6 col-lg-3 mobile-aside left">
+                    <div class="col-12 col-md-9 col-lg-3 mobile-aside left">
                         <aside class="aside aside-left">
                             <section class="aside-section">
-                                <span class="aside-title">Categories</span>
+                                <span class="aside-title">Categories</span> 
+                                <span class="close-icon"><i class="fas fa-times"></i></span>
                                 <ul class="default-list">
                                     <li>WordPress<span class="quantity brackets">150</span></li>
                                     <li>Joomla<span class="quantity brackets">150</span></li>
