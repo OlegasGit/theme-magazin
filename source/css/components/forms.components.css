@@ -13,9 +13,6 @@
     font-weight: 500;
     text-transform: capitalize;
 }
-.content-wrapper-bordered .content-wrapper-body{
-    padding: 35px 34px 80px;
-}
 .content-wrapper-bordered .content-wrapper-body .col-form-label{
     text-transform: capitalize;
     color: #444;
@@ -79,9 +76,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border-top-color: #000;
-}
-.content-wrapper-bordered .content-wrapper-body.product-form{
-    padding: 45px 45px 68px;
 }
 .col-form-label span{
     color: #8bc34a;
@@ -149,14 +143,3 @@
     color: #444;
 }
 /* Forms end */
-
-/* Adaptive start */
-@media(max-width: 767px){
-    .content-wrapper-bordered .content-wrapper-body.product-form{
-        padding: 20px 20px 40px;
-    }
-    .content-wrapper-bordered .content-wrapper-body{
-        padding: 20px 20px 50px;
-    }
-}
-/* Adaptive end */
