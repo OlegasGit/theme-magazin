@@ -1,4 +1,4 @@
-.gt-builder, .breadcrumb-section {
+.gt-builder, .breadcrumb-section, .author {
     background-color: #f4f6f5;
 }
 
@@ -40,7 +40,7 @@
 
 .gt-builder-social .social-icon li a {
     color: #fff;
-    font-size: 18px;
+    font-size: 15px;
     width: 54px;
     height: 50px;
     display: block;
@@ -207,9 +207,15 @@
     overflow: hidden;
 }
 
+.product-author-info .author-info .author-content {
+    flex: 1 auto;
+}
+
 .product-author-info .author-name {
     font-size: 18px;
     color: #263238;
+    font-weight: 400;
+    margin: 0;
 }
 
 .product-author-info .btn-outline-secondary {
