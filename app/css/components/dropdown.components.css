@@ -128,12 +128,12 @@ a.dropdown-item:focus, a.dropdown-item:hover .item-icon {
     padding: 0 15px;
 }
 
-.btn-row {
+.dropdown-item .btn-row {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
-.btn-row .btn-custom {
+.dropdown-item .btn-row .btn-custom {
     -webkit-box-flex: 1;
         -ms-flex: 1 auto;
             flex: 1 auto;

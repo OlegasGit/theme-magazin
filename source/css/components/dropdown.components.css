@@ -117,10 +117,10 @@ a.dropdown-item:focus, a.dropdown-item:hover .item-icon {
     padding: 0 15px;
 }
 
-.btn-row {
+.dropdown-item .btn-row {
     display: flex;
 }
-.btn-row .btn-custom {
+.dropdown-item .btn-row .btn-custom {
     flex: 1 auto;
 }
 

@@ -1,0 +1,327 @@
+.gt-builder, .breadcrumb-section {
+    background-color: #f4f6f5;
+}
+
+.gt-builder .gt-builder-img {
+    background-color: #fff;
+    padding: 19px 18px;
+    border: 1px solid #dedede;
+    margin-bottom: 35px;
+}
+
+.gt-builder-info {
+    margin-bottom: 35px;
+}
+
+.gt-builder-info .default-section-title {
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.33;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.gt-builder-social {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+
+.gt-builder-social .btn-custom {
+    margin-right: 18px;
+    color: #f4f6f5;
+}
+
+.gt-builder-social .social-icon li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.gt-builder-social .social-icon li a {
+    color: #fff;
+    font-size: 18px;
+    width: 54px;
+    height: 50px;
+    display: block;
+    position: relative;
+}
+
+.gt-builder-social .social-icon li a:hover {
+    opacity: .75;
+}
+
+.gt-builder-social .social-icon li a::before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gt-builder-social .social-icon .fa-facebook-f {
+    background-color: #6370b6;
+}
+
+.gt-builder-social .social-icon .fa-twitter {
+    background-color: #64b5f6;
+}
+
+.gt-builder-social .social-icon .fa-linkedin-in  {
+    background-color: #4f71ce;
+}
+
+.gt-builder-social .social-icon .fa-pinterest-p {
+    background-color: #d32f2f;
+}
+
+.product-detail {
+    background-color: #fff;
+    border: 1px solid #dedede;
+    margin-bottom: 53px;
+}
+
+.product-detail .nav .nav-item {
+    width: 25%;
+    text-align: center;
+    color: #78909c;
+    font-weight: 500;
+    line-height: 2.75;
+}
+
+.product-detail .nav .nav-item + .nav-item {
+    border-left: 1px solid #d7d7d7;
+}
+
+.product-detail .nav-tabs .nav-link {
+    border: none;
+}
+
+.product-detail .nav-link.active {
+    color: #263238;
+    border-bottom: 3px solid #8bc34a;
+}
+
+.product-detail .nav-link:hover {
+    color: #263238;
+    border-bottom: 3px solid #8bc34a;
+}
+
+.product-detail .tab-pane .tab-info-row {
+    padding: 35px 35px 0;
+    margin-bottom: 30px;
+    height: 260px;
+}
+
+.product-detail .tab-info-row .default-list {
+    column-count: 3;
+    column-width: 33.3333%;
+    column-fill: auto;
+    height: 100%;
+}
+
+.another-products .default-section-title {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.33;
+    background-color: #fff;
+    padding: 20px 27px 25px;
+}
+
+.another-products {
+    margin-bottom: 100px;
+}
+
+.another-products-card {
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(205, 214, 222, .75);
+}
+
+.another-products-card:hover {
+    opacity: .75;
+}
+
+.another-products-card a {
+    display: flex;
+}
+
+.another-products-card-img {
+    width: 100px;
+    flex: 0 0 auto;
+}
+
+.another-products-card .item-info {
+    padding: 10px 5px 0 20px;
+    line-height: 1.8;
+}
+
+.another-products-card .item-info span {
+    display: block;
+}
+
+.another-products-card .item-name {
+    font-size: 14px;
+    color: #263238;
+}
+
+.another-products-card .item-category {
+    color: #8bc34a;
+}
+
+.another-products-card .item-price {
+    font-size: 18px;
+    color: #263238;
+    font-weight: 700;
+}
+/* Aside-section Oleg-style start */
+.aside-section .aside-title {
+    display: block;
+    padding-bottom: 15px;
+}
+
+.aside-section .price-option {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.price-option .aside-price {
+    font-size: 22px;
+    font-weight: 500;
+    color: #e74c3c;
+}
+
+.price-option select {
+    padding: 7px 25px 7px 10px;
+    font-size: 13px;
+    color: #70838d;
+    border-color: #d5d5d5;
+    appearance: none;
+    background: url(../img/select-trigger.png) top 50% right 10px no-repeat;
+    background-size: 8px 5px;
+}
+
+.product-author-info .author-info {
+    display: flex;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.product-author-info .author-name {
+    font-size: 18px;
+    color: #263238;
+}
+
+.product-author-info .btn-outline-secondary {
+    font-size: 13px;
+    border-radius: 0;
+}
+
+.product-author-info .author-img {
+    width: 73px;
+    flex: 0 0 auto;
+    margin-right: 15px;
+}
+
+/* Shield-icon start*/
+.shield-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shield-list li + li {
+    margin-left: 5px;
+}
+
+.shield {
+    position: relative;
+    width: 34px;
+    height: 37px;
+    border-radius: 0 0 140px 140px;
+    display: inline-block;
+}
+
+.shield:before, .shield:after {
+    position: absolute;
+    margin-top: 15px;
+    content:"";
+    left: 17px;
+    top: 0;
+    width: 17px;
+    height: 25px;
+    background-color: inherit;
+    border-radius: 110px 0 0 0;
+    transform: rotate(-60deg);
+    transform-origin: 0 100%;
+}
+
+.shield:after {
+    background-color: inherit;
+    left: 0;
+    border-radius: 0 110px 0 0;
+    transform: rotate(60deg);
+    transform-origin: 100% 100%;
+}
+
+.product-icon a {
+    position: relative;
+}
+
+.shield-icon:before {
+    font-size: 19px;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+}
+
+.shield-bg-warning {
+    background-color: #ffb74d;
+}
+
+.shield-bg-danger {
+    background-color: #f4511e;
+}
+
+.shield-bg-info {
+    background-color: #00bcd4;
+}
+
+.shield-bg-success {
+    background-color: #66bb6a;
+}
+
+.shield-bg-light {
+    background-color: #cfd8dc;
+}
+/* Shild-icon end*/
+
+.product-sales i {
+    font-size: 20px;
+    color: #a6b5bb;
+    margin-right: 20px;
+}
+
+.product-sales .sales-amount {
+    font-size: 20px;
+    color: #263238;
+    margin-right: 15px;
+    font-weight: 700;
+}
+
+.information-list li {
+    color: #263238;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.information-list li span {
+    color: #70838d;
+    display: inline-block;
+}
+
+/* Adaptive start */

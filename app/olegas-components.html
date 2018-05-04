@@ -1,1361 +1,1363 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Foxtar</title>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Foxtar</title>
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-            crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
 
-        <!-- Google fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Lato:700%7COpen+Sans:400,600%7CRaleway:400,700%7CRoboto:400,500,700,900"
-            rel="stylesheet">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:700%7COpen+Sans:400,600%7CRaleway:400,700%7CRoboto:400,500,700,900"
+        rel="stylesheet">
 
-        <!-- Font awesome -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
-            crossorigin="anonymous">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
 
-        <!-- Formstayler style -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.theme.css">
+    <!-- Formstayler style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.theme.css">
 
-        <!-- Slick-nav -->
-        <link rel="stylesheet" href="css/slicknav.css">
+    <!-- Slick-nav -->
+    <link rel="stylesheet" href="css/slicknav.css">
 
-        <!-- Slick style -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <!-- Slick style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 
-        <!-- jQuery UI Style -->
-        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- jQuery UI Style -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
-        <!-- Custom Style -->
-        <link rel="stylesheet" href="css/style.css">
-        
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../../aleksandr-components.css">
+    <link rel="stylesheet" href="../../inna-style.css">
 
-    </head>
-    <body>
-        <!-- Header start -->
-        <header class="not-logined" id="header">
-            <div class="header-top">
-                <div class="container">
-                    <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="#">
-                            <img src="img/header-logo.png" alt="logo">
-                        </a>
-                        <div class="navbar-collapse">
-                            <span class="navbar-text ml-auto">
-                                <span class="text-danger">Need help?</span> Talk to an expert: +61 3 8376 6284
-                            </span>
-                            <!-- / navbar-text -->
-                            <ul class="user-notification nav">
-                                <li class="dropdown for-logined">
-                                    <a href="#" class="dropdown-toggle far fa-bell dropdown-bell" id="dropdown-bell" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">
-                                        <span class="value">8</span>
+</head>
+
+<body>
+    <!-- Header start -->
+    <header class="not-logined" id="header">
+        <div class="header-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/header-logo.png" alt="logo">
+                    </a>
+                    <div class="navbar-collapse">
+                        <span class="navbar-text ml-auto">
+                            <span class="text-danger">Need help?</span> Talk to an expert: +61 3 8376 6284
+                        </span>
+                        <!-- / navbar-text -->
+                        <ul class="user-notification nav">
+                            <li class="dropdown for-logined">
+                                <a href="#" class="dropdown-toggle far fa-bell dropdown-bell" id="dropdown-bell" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <span class="value">8</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-bell">
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-category">Need WP Help!</span>
+                                                <span class="item-date">01 Dec, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-bell"></span>
+                                        </div>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdown-bell">
-                                        <a class="dropdown-item" href="#">
-                                            <div class="dropdown-card card-notification">
-                                                <div class="dropdown-card-img">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="item-info">
-                                                    <span class="item-category">Need WP Help!</span>
-                                                    <span class="item-date">01 Dec, 2016</span>
-                                                </div>
-                                                <span class="item-icon far fa-bell"></span>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
                                             </div>
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                            <div class="dropdown-card card-notification">
-                                                <div class="dropdown-card-img">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="item-info">
-                                                    <span class="item-category">Need WP Help!</span>
-                                                    <span class="item-date">26 Nov, 2016</span>
-                                                </div>
-                                                <span class="item-icon far fa-bell"></span>
+                                            <div class="item-info">
+                                                <span class="item-category">Need WP Help!</span>
+                                                <span class="item-date">26 Nov, 2016</span>
                                             </div>
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                            <div class="dropdown-card card-notification">
-                                                <div class="dropdown-card-img">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="item-info">
-                                                    <span class="item-category">Psd Template Help!</span>
-                                                    <span class="item-date">26 Nov, 2016</span>
-                                                </div>
-                                                <span class="item-icon far fa-bell"></span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="dropdown for-logined">
-                                    <a href="#" class="dropdown-toggle far fa-envelope dropdown-envelope" id="dropdown-envelope" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">
-                                        <span class="value">5</span>
+                                            <span class="item-icon far fa-bell"></span>
+                                        </div>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdown-envelope">
-                                        <a class="dropdown-item" href="#">
-                                            <div class="dropdown-card card-notification">
-                                                <div class="dropdown-card-img">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="item-info">
-                                                    <span class="item-name">Kazi Fahim</span>
-                                                    <span class="item-category">Need WP Help!</span>
-                                                    <span class="item-date">01 Dec, 2016</span>
-                                                </div>
-                                                <span class="item-icon far fa-envelope"></span>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
                                             </div>
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                            <div class="dropdown-card card-notification">
-                                                <div class="dropdown-card-img">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="item-info">
-                                                    <span class="item-name">Richi Lenal</span>
-                                                    <span class="item-category">Need WP Help!</span>
-                                                    <span class="item-date">26 Nov, 2016</span>
-                                                </div>
-                                                <span class="item-icon far fa-envelope"></span>
+                                            <div class="item-info">
+                                                <span class="item-category">Psd Template Help!</span>
+                                                <span class="item-date">26 Nov, 2016</span>
                                             </div>
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                            <div class="dropdown-card card-notification">
-                                                <div class="dropdown-card-img">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="item-info">
-                                                    <span class="item-name">PsdBosS</span>
-                                                    <span class="item-category">Psd Template Help!</span>
-                                                    <span class="item-date">26 Nov, 2016</span>
-                                                </div>
-                                                <span class="item-icon fas fa-reply"></span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle fas fa-cart-plus dropdown-basket" id="dropdown-basket" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">
-                                        <span class="value">8</span>
+                                            <span class="item-icon far fa-bell"></span>
+                                        </div>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdown-basket">
-                                        <a class="dropdown-item" href="#">
-                                            <div class="dropdown-card">
-                                                <div class="dropdown-card-img">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="item-info">
-                                                    <span class="item-name">Grand Ballet</span>
-                                                    <span class="item-category">WordPress</span>
-                                                    <span class="item-price">$59</span>
-                                                </div>
+                                </div>
+                            </li>
+                            <li class="dropdown for-logined">
+                                <a href="#" class="dropdown-toggle far fa-envelope dropdown-envelope" id="dropdown-envelope" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <span class="value">5</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-envelope">
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
                                             </div>
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                            <div class="dropdown-card">
-                                                <div class="dropdown-card-img">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="item-info">
-                                                    <span class="item-name">Apple Device</span>
-                                                    <span class="item-category">WordPress</span>
-                                                    <span class="item-price">$59</span>
-                                                </div>
+                                            <div class="item-info">
+                                                <span class="item-name">Kazi Fahim</span>
+                                                <span class="item-category">Need WP Help!</span>
+                                                <span class="item-date">01 Dec, 2016</span>
                                             </div>
-                                        </a>
-                                        <div class="dropdown-item">
-                                            <div class="item-amount">
-                                                <span class="total">Total</span>
-                                                <span class="price ml-auto">$118</span>
+                                            <span class="item-icon far fa-envelope"></span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
                                             </div>
-                                            <div class="btn-row">
-                                                <button class="btn-custom btn-small btn-success">Go to Cart</button>
-                                                <button class="btn-custom btn-small btn-danger">Go to Checkout</button>
+                                            <div class="item-info">
+                                                <span class="item-name">Richi Lenal</span>
+                                                <span class="item-category">Need WP Help!</span>
+                                                <span class="item-date">26 Nov, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-envelope"></span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">PsdBosS</span>
+                                                <span class="item-category">Psd Template Help!</span>
+                                                <span class="item-date">26 Nov, 2016</span>
+                                            </div>
+                                            <span class="item-icon fas fa-reply"></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle fas fa-cart-plus dropdown-basket" id="dropdown-basket" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <span class="value">8</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-basket">
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">Grand Ballet</span>
+                                                <span class="item-category">WordPress</span>
+                                                <span class="item-price">$59</span>
                                             </div>
                                         </div>
-                                    </div>
-                                </li>
-                            </ul>
-                            <!-- / user-nitification -->
-                            <div class="user-info dropdown for-logined">
-                                <a href="#" class="dropdown-toggle" id="dropdown-user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <div class="user-img">
-                                        <img src="" alt="">
-                                    </div>
-                                    <!-- / user-img -->
-                                    <div class="user-info-text">
-                                        <span class="user-name">Mike Hussy</span>
-                                        <span class="user-price">$171.00</span>
-                                    </div>
-                                    <span class="fa fa-chevron-down dropdown"></span>
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="dropdown-user">
-                                    <ul class="default-list dropdown-item">
-                                        <li>
-                                            <a href="#">Profile Page</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Portfolio</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Account Setting</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Downloads</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Wishlist</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Upload Item</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Statement</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Withdraws</a>
-                                        </li>
-                                    </ul>
-                                    <!-- / default-list -->
-                                </div>
-                            </div>
-                            <!-- / user-info -->
-                            <div class="header-buttons">
-                                <button class="btn-custom btn-small btn-success rounded logined">Login</button>
-                                <button class="btn-custom btn-small btn-danger rounded logined">Register</button>
-                                <button class="btn-custom btn-small btn-danger rounded for-logined">Logout</button>
-                            </div>
-                            <!-- / header-buttons -->
-                        </div>
-                        <!-- / navbar-collapse -->
-                    </nav>
-                    <!-- / navbar -->
-                </div>
-                <!-- / container -->
-            </div>
-            <!-- / header-top -->
-            <div class="header-bottom">
-                <div class="container">
-                    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">WordPress</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Joomla</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">PSD</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Plugins</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Components</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Pages</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Help</a>
-                                </li>
-                            </ul>
-                            <!-- / navbar-nav -->
-                        </div>
-                        <!-- / collapse -->
-                    </nav>
-                    <!-- / header-nav -->
-                </div>
-                <!-- / container -->
-            </div>
-            <!-- / header-bottom -->
-        </header>
-        <!-- Header end -->
-
-        <!-- Header LOGINED -->
-        <div class="container">
-            <p class="my-4">Шапка с классом logined - второе состояние шапки</p>
-        </div>
-        <header class="logined" id="header">
-            <div class="header-top">
-                <div class="container">
-                    <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="#">
-                            <img src="img/header-logo.png" alt="logo">
-                        </a>
-                        <div class="navbar-collapse">
-                            <span class="navbar-text ml-auto">
-                                <span class="text-danger">Need help?</span> Talk to an expert: +61 3 8376 6284
-                            </span>
-                            <!-- / navbar-text -->
-                            <ul class="user-notification nav">
-                                <li class="dropdown for-logined">
-                                    <a href="#" class="dropdown-toggle far fa-bell dropdown-bell" id="dropdown-bell" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">
-                                        <span class="value">8</span>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdown-bell">
-                                        <a class="dropdown-item" href="#">
-                                            <div class="dropdown-card card-notification">
-                                                <div class="dropdown-card-img">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="item-info">
-                                                    <span class="item-category">Need WP Help!</span>
-                                                    <span class="item-date">01 Dec, 2016</span>
-                                                </div>
-                                                <span class="item-icon far fa-bell"></span>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
                                             </div>
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                            <div class="dropdown-card card-notification">
-                                                <div class="dropdown-card-img">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="item-info">
-                                                    <span class="item-category">Need WP Help!</span>
-                                                    <span class="item-date">26 Nov, 2016</span>
-                                                </div>
-                                                <span class="item-icon far fa-bell"></span>
-                                            </div>
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                            <div class="dropdown-card card-notification">
-                                                <div class="dropdown-card-img">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="item-info">
-                                                    <span class="item-category">Psd Template Help!</span>
-                                                    <span class="item-date">26 Nov, 2016</span>
-                                                </div>
-                                                <span class="item-icon far fa-bell"></span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="dropdown for-logined">
-                                    <a href="#" class="dropdown-toggle far fa-envelope dropdown-envelope" id="dropdown-envelope" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">
-                                        <span class="value">5</span>
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdown-envelope">
-                                        <a class="dropdown-item" href="#">
-                                            <div class="dropdown-card card-notification">
-                                                <div class="dropdown-card-img">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="item-info">
-                                                    <span class="item-name">Kazi Fahim</span>
-                                                    <span class="item-category">Need WP Help!</span>
-                                                    <span class="item-date">01 Dec, 2016</span>
-                                                </div>
-                                                <span class="item-icon far fa-envelope"></span>
-                                            </div>
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                            <div class="dropdown-card card-notification">
-                                                <div class="dropdown-card-img">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="item-info">
-                                                    <span class="item-name">Richi Lenal</span>
-                                                    <span class="item-category">Need WP Help!</span>
-                                                    <span class="item-date">26 Nov, 2016</span>
-                                                </div>
-                                                <span class="item-icon far fa-envelope"></span>
-                                            </div>
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                            <div class="dropdown-card card-notification">
-                                                <div class="dropdown-card-img">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="item-info">
-                                                    <span class="item-name">PsdBosS</span>
-                                                    <span class="item-category">Psd Template Help!</span>
-                                                    <span class="item-date">26 Nov, 2016</span>
-                                                </div>
-                                                <span class="item-icon fas fa-reply"></span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle fas fa-cart-plus dropdown-basket" id="dropdown-basket" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">
-                                        <span class="value">8</span>
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdown-basket">
-                                        <a class="dropdown-item" href="#">
-                                            <div class="dropdown-card">
-                                                <div class="dropdown-card-img">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="item-info">
-                                                    <span class="item-name">Grand Ballet</span>
-                                                    <span class="item-category">WordPress</span>
-                                                    <span class="item-price">$59</span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                            <div class="dropdown-card">
-                                                <div class="dropdown-card-img">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="item-info">
-                                                    <span class="item-name">Apple Device</span>
-                                                    <span class="item-category">WordPress</span>
-                                                    <span class="item-price">$59</span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <div class="dropdown-item">
-                                            <div class="item-amount">
-                                                <span class="total">Total</span>
-                                                <span class="price ml-auto">$118</span>
-                                            </div>
-                                            <div class="btn-row">
-                                                <button class="btn-custom btn-small btn-success">Go to Cart</button>
-                                                <button class="btn-custom btn-small btn-danger">Go to Checkout</button>
+                                            <div class="item-info">
+                                                <span class="item-name">Apple Device</span>
+                                                <span class="item-category">WordPress</span>
+                                                <span class="item-price">$59</span>
                                             </div>
                                         </div>
+                                    </a>
+                                    <div class="dropdown-item">
+                                        <div class="item-amount">
+                                            <span class="total">Total</span>
+                                            <span class="price ml-auto">$118</span>
+                                        </div>
+                                        <div class="btn-row">
+                                            <button class="btn-custom btn-small btn-success">Go to Cart</button>
+                                            <button class="btn-custom btn-small btn-danger">Go to Checkout</button>
+                                        </div>
                                     </div>
-                                </li>
-                            </ul>
-                            <!-- / user-nitification -->
-                            <div class="user-info dropdown for-logined">
-                                <a href="#" class="dropdown-toggle" id="dropdown-user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <div class="user-img">
-                                        <img src="" alt="">
-                                    </div>
-                                    <!-- / user-img -->
-                                    <div class="user-info-text">
-                                        <span class="user-name">Mike Hussy</span>
-                                        <span class="user-price">$171.00</span>
-                                    </div>
-                                    <span class="fa fa-chevron-down dropdown"></span>
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="dropdown-user">
-                                    <ul class="default-list dropdown-item">
-                                        <li>
-                                            <a href="#">Profile Page</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Portfolio</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Account Setting</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Downloads</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Wishlist</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Upload Item</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Statement</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Withdraws</a>
-                                        </li>
-                                    </ul>
-                                    <!-- / default-list -->
                                 </div>
+                            </li>
+                        </ul>
+                        <!-- / user-nitification -->
+                        <div class="user-info dropdown for-logined">
+                            <a href="#" class="dropdown-toggle" id="dropdown-user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="user-img">
+                                    <img src="" alt="">
+                                </div>
+                                <!-- / user-img -->
+                                <div class="user-info-text">
+                                    <span class="user-name">Mike Hussy</span>
+                                    <span class="user-price">$171.00</span>
+                                </div>
+                                <span class="fa fa-chevron-down dropdown"></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-user">
+                                <ul class="default-list dropdown-item">
+                                    <li>
+                                        <a href="#">Profile Page</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Portfolio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Account Setting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Downloads</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Wishlist</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Upload Item</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Statement</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Withdraws</a>
+                                    </li>
+                                </ul>
+                                <!-- / default-list -->
                             </div>
-                            <!-- / user-info -->
-                            <div class="header-buttons">
-                                <button class="btn-custom btn-small btn-success rounded logined">Login</button>
-                                <button class="btn-custom btn-small btn-danger rounded logined">Register</button>
-                                <button class="btn-custom btn-small btn-danger rounded for-logined">Logout</button>
-                            </div>
-                            <!-- / header-buttons -->
                         </div>
-                        <!-- / navbar-collapse -->
-                    </nav>
-                    <!-- / navbar -->
-                </div>
-                <!-- / container -->
+                        <!-- / user-info -->
+                        <div class="header-buttons">
+                            <button class="btn-custom btn-small btn-success rounded logined">Login</button>
+                            <button class="btn-custom btn-small btn-danger rounded logined">Register</button>
+                            <button class="btn-custom btn-small btn-danger rounded for-logined">Logout</button>
+                        </div>
+                        <!-- / header-buttons -->
+                    </div>
+                    <!-- / navbar-collapse -->
+                </nav>
+                <!-- / navbar -->
             </div>
-            <!-- / header-top -->
-            <div class="header-bottom">
-                <div class="container">
-                    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">WordPress</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Joomla</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">PSD</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Plugins</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Components</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Pages</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Help</a>
-                                </li>
-                            </ul>
-                            <!-- / navbar-nav -->
-                        </div>
-                        <!-- / collapse -->
-                    </nav>
-                    <!-- / header-nav -->
-                </div>
-                <!-- / container -->
-            </div>
-            <!-- / header-bottom -->
-        </header>
-        <!-- Header end -->
-
-        <!-- Carousel start -->
-        <div class="container my-4">
-            <p>Carousel-section</p>
+            <!-- / container -->
         </div>
-
-
-        <div class="week-trending default-section">
-            <div class="container-fluid">
-                <div class="default-section-title">
-                    <span>This Week Trending Products</span>
-                </div>
-                <div class="main-slider">
-                    <div class="main-slider-item">
-                        <div class="card large-card">
-                            <div class="card-img green-label-card">
-                                <a href="#">
-                                    <img src="img/large-card-img.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="card-description">
-                                <div class="card-info d-flex align-items-center">
-                                    <div class="title-category">
-                                        <a href="#" class="card-item-title">Responsive Mobile APP</a>
-                                        <a href="#" class="card-item-category">Site Template</a>
-                                    </div>
-                                    <span class="card-price ml-auto">19$</span>
-                                </div>
-                                <!-- /card-info -->
-                                <div class="card-author d-flex align-items-center">
-                                    <a href="#">
-                                        <img src="img/card-author-img.jpg" alt="">
-                                        <span class="author-name">Radiustheme</span>
-                                    </a>
-                                    <ul class="card-product-rating ml-auto">
-                                        <li class="fas fa-star">
-        
-                                        </li>
-                                        <li class="fas fa-star">
-        
-                                        </li>
-                                        <li class="fas fa-star">
-        
-                                        </li>
-                                        <li class="fas fa-star">
-        
-                                        </li>
-                                        <li class="fas fa-star">
-        
-                                        </li>
-                                    </ul>
-                                    <span class="rating-count">5</span>
-                                    <!--/card-product-rating-->
-                                </div>
-                                <!--/card-author -->
-                            </div>
-                            <!--/card-description-->
-                        </div>
-                    </div>
-                    <div class="main-slider-item">
-                        <div class="card large-card">
-                            <div class="card-img green-label-card">
-                                <a href="#">
-                                    <img src="img/large-card-img.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="card-description">
-                                <div class="card-info d-flex align-items-center">
-                                    <div class="title-category">
-                                        <a href="#" class="card-item-title">Responsive Mobile APP</a>
-                                        <a href="#" class="card-item-category">Site Template</a>
-                                    </div>
-                                    <span class="card-price ml-auto">19$</span>
-                                </div>
-                                <!-- /card-info -->
-                                <div class="card-author d-flex align-items-center">
-                                    <a href="#">
-                                        <img src="img/card-author-img.jpg" alt="">
-                                        <span class="author-name">Radiustheme</span>
-                                    </a>
-                                    <ul class="card-product-rating ml-auto">
-                                        <li class="fas fa-star">
-                    
-                                        </li>
-                                        <li class="fas fa-star">
-                    
-                                        </li>
-                                        <li class="fas fa-star">
-                    
-                                        </li>
-                                        <li class="fas fa-star">
-                    
-                                        </li>
-                                        <li class="fas fa-star">
-                    
-                                        </li>
-                                    </ul>
-                                    <span class="rating-count">5</span>
-                                    <!--/card-product-rating-->
-                                </div>
-                                <!--/card-author -->
-                            </div>
-                            <!--/card-description-->
-                        </div>
-                    </div>
-                    <div class="main-slider-item">
-                        <div class="card large-card">
-                            <div class="card-img green-label-card">
-                                <a href="#">
-                                    <img src="img/large-card-img.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="card-description">
-                                <div class="card-info d-flex align-items-center">
-                                    <div class="title-category">
-                                        <a href="#" class="card-item-title">Responsive Mobile APP</a>
-                                        <a href="#" class="card-item-category">Site Template</a>
-                                    </div>
-                                    <span class="card-price ml-auto">19$</span>
-                                </div>
-                                <!-- /card-info -->
-                                <div class="card-author d-flex align-items-center">
-                                    <a href="#">
-                                        <img src="img/card-author-img.jpg" alt="">
-                                        <span class="author-name">Radiustheme</span>
-                                    </a>
-                                    <ul class="card-product-rating ml-auto">
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <span class="rating-count">5</span>
-                                    <!--/card-product-rating-->
-                                </div>
-                                <!--/card-author -->
-                            </div>
-                            <!--/card-description-->
-                        </div>
-                    </div>
-                    <div class="main-slider-item">
-                        <div class="card large-card">
-                            <div class="card-img green-label-card">
-                                <a href="#">
-                                    <img src="img/large-card-img.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="card-description">
-                                <div class="card-info d-flex align-items-center">
-                                    <div class="title-category">
-                                        <a href="#" class="card-item-title">Responsive Mobile APP</a>
-                                        <a href="#" class="card-item-category">Site Template</a>
-                                    </div>
-                                    <span class="card-price ml-auto">19$</span>
-                                </div>
-                                <!-- /card-info -->
-                                <div class="card-author d-flex align-items-center">
-                                    <a href="#">
-                                        <img src="img/card-author-img.jpg" alt="">
-                                        <span class="author-name">Radiustheme</span>
-                                    </a>
-                                    <ul class="card-product-rating ml-auto">
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <span class="rating-count">5</span>
-                                    <!--/card-product-rating-->
-                                </div>
-                                <!--/card-author -->
-                            </div>
-                            <!--/card-description-->
-                        </div>
-                    </div>
-                    <div class="main-slider-item">
-                        <div class="card large-card">
-                            <div class="card-img green-label-card">
-                                <a href="#">
-                                    <img src="img/large-card-img.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="card-description">
-                                <div class="card-info d-flex align-items-center">
-                                    <div class="title-category">
-                                        <a href="#" class="card-item-title">Responsive Mobile APP</a>
-                                        <a href="#" class="card-item-category">Site Template</a>
-                                    </div>
-                                    <span class="card-price ml-auto">19$</span>
-                                </div>
-                                <!-- /card-info -->
-                                <div class="card-author d-flex align-items-center">
-                                    <a href="#">
-                                        <img src="img/card-author-img.jpg" alt="">
-                                        <span class="author-name">Radiustheme</span>
-                                    </a>
-                                    <ul class="card-product-rating ml-auto">
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <span class="rating-count">5</span>
-                                    <!--/card-product-rating-->
-                                </div>
-                                <!--/card-author -->
-                            </div>
-                            <!--/card-description-->
-                        </div>
-                    </div>
-                    <div class="main-slider-item">
-                        <div class="card large-card">
-                            <div class="card-img green-label-card">
-                                <a href="#">
-                                    <img src="img/large-card-img.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="card-description">
-                                <div class="card-info d-flex align-items-center">
-                                    <div class="title-category">
-                                        <a href="#" class="card-item-title">Responsive Mobile APP</a>
-                                        <a href="#" class="card-item-category">Site Template</a>
-                                    </div>
-                                    <span class="card-price ml-auto">19$</span>
-                                </div>
-                                <!-- /card-info -->
-                                <div class="card-author d-flex align-items-center">
-                                    <a href="#">
-                                        <img src="img/card-author-img.jpg" alt="">
-                                        <span class="author-name">Radiustheme</span>
-                                    </a>
-                                    <ul class="card-product-rating ml-auto">
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <span class="rating-count">5</span>
-                                    <!--/card-product-rating-->
-                                </div>
-                                <!--/card-author -->
-                            </div>
-                            <!--/card-description-->
-                        </div>
-                    </div>
-                    <div class="main-slider-item">
-                        <div class="card large-card">
-                            <div class="card-img green-label-card">
-                                <a href="#">
-                                    <img src="img/large-card-img.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="card-description">
-                                <div class="card-info d-flex align-items-center">
-                                    <div class="title-category">
-                                        <a href="#" class="card-item-title">Responsive Mobile APP</a>
-                                        <a href="#" class="card-item-category">Site Template</a>
-                                    </div>
-                                    <span class="card-price ml-auto">19$</span>
-                                </div>
-                                <!-- /card-info -->
-                                <div class="card-author d-flex align-items-center">
-                                    <a href="#">
-                                        <img src="img/card-author-img.jpg" alt="">
-                                        <span class="author-name">Radiustheme</span>
-                                    </a>
-                                    <ul class="card-product-rating ml-auto">
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <span class="rating-count">5</span>
-                                    <!--/card-product-rating-->
-                                </div>
-                                <!--/card-author -->
-                            </div>
-                            <!--/card-description-->
-                        </div>
-                    </div>
-                    <div class="main-slider-item">
-                        <div class="card large-card">
-                            <div class="card-img green-label-card">
-                                <a href="#">
-                                    <img src="img/large-card-img.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="card-description">
-                                <div class="card-info d-flex align-items-center">
-                                    <div class="title-category">
-                                        <a href="#" class="card-item-title">Responsive Mobile APP</a>
-                                        <a href="#" class="card-item-category">Site Template</a>
-                                    </div>
-                                    <span class="card-price ml-auto">19$</span>
-                                </div>
-                                <!-- /card-info -->
-                                <div class="card-author d-flex align-items-center">
-                                    <a href="#">
-                                        <img src="img/card-author-img.jpg" alt="">
-                                        <span class="author-name">Radiustheme</span>
-                                    </a>
-                                    <ul class="card-product-rating ml-auto">
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <span class="rating-count">5</span>
-                                    <!--/card-product-rating-->
-                                </div>
-                                <!--/card-author -->
-                            </div>
-                            <!--/card-description-->
-                        </div>
-                    </div>
-                </div>
-                <!-- / main-slider -->
-            </div>
-            <!-- / container-fluid -->
-        </div>
-        <!-- / Carousel end -->
-
-        <!-- Why-you-chose section -->
-        <div class="container my-4">
-            <p>Why-you-chose section</p>
-        </div>
-
-        <div class="why-you-choose default-section bg-black">
+        <!-- / header-top -->
+        <div class="header-bottom">
             <div class="container">
-                <div class="default-section-title title-white">
-                    <span>Why You Choose Foxtar Market Place?</span>
-                </div>
-                <div class="row quality">
-                    <div class="col-12 col-md-4">
-                        <div class="quality-info">
-                            <div class="quality-info-img">
-                                <a href="#">
-                                    <img src="img/test-img.jpg" alt="">
-                                </a>
-                            </div>
-                            <span class="quality-title">
-                                <a href="">Easily Buy & Sell</a>
-                            </span>
-
-                            <p>Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the
-                                industry's standaum.
-                            </p>
-                        </div>
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">WordPress</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Joomla</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">PSD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Plugins</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Components</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Help</a>
+                            </li>
+                        </ul>
+                        <!-- / navbar-nav -->
                     </div>
-                    <div class="col-12 col-md-4">
-                        <div class="quality-info">
-                            <div class="quality-info-img">
-                                <a href="#">
-                                    <img src="img/test-img.jpg" alt="">
-                                </a>
-                            </div>
-                            <span class="quality-title">
-                                <a href="#">Quality Products</a>
-                            </span>
-                            <p>Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the
-                                industry's standaum.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="quality-info">
-                            <div class="quality-info-img">
-                                <a href="#">
-                                    <img src="img/test-img.jpg" alt="">
-                                </a>
-                            </div>
-                            <span class="quality-title">
-                                <a href="#">100% Secure Payment</a>
-                            </span>
-                            <p>Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the
-                                industry's standaum.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                    <!-- / collapse -->
+                </nav>
+                <!-- / header-nav -->
             </div>
+            <!-- / container -->
         </div>
-        <!-- / Why-you-chose section end -->
+        <!-- / header-bottom -->
+    </header>
+    <!-- Header end -->
 
-        <!-- Author section start -->
-        <div class="author default-section bg-grey">
+    <!-- Header LOGINED -->
+    <div class="container">
+        <p class="my-4">Шапка с классом logined - второе состояние шапки</p>
+    </div>
+    <header class="logined" id="header">
+        <div class="header-top">
             <div class="container">
-                <div class="author-card">
-                    <div class="author-info">
-                        <span>Over 20,000 Author Are Involved Here!</span>
-                        <button class="btn-custom btn-default">Become A Author</button>
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/header-logo.png" alt="logo">
+                    </a>
+                    <div class="navbar-collapse">
+                        <span class="navbar-text ml-auto">
+                            <span class="text-danger">Need help?</span> Talk to an expert: +61 3 8376 6284
+                        </span>
+                        <!-- / navbar-text -->
+                        <ul class="user-notification nav">
+                            <li class="dropdown for-logined">
+                                <a href="#" class="dropdown-toggle far fa-bell dropdown-bell" id="dropdown-bell" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <span class="value">8</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-bell">
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-category">Need WP Help!</span>
+                                                <span class="item-date">01 Dec, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-bell"></span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-category">Need WP Help!</span>
+                                                <span class="item-date">26 Nov, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-bell"></span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-category">Psd Template Help!</span>
+                                                <span class="item-date">26 Nov, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-bell"></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="dropdown for-logined">
+                                <a href="#" class="dropdown-toggle far fa-envelope dropdown-envelope" id="dropdown-envelope" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <span class="value">5</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-envelope">
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">Kazi Fahim</span>
+                                                <span class="item-category">Need WP Help!</span>
+                                                <span class="item-date">01 Dec, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-envelope"></span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">Richi Lenal</span>
+                                                <span class="item-category">Need WP Help!</span>
+                                                <span class="item-date">26 Nov, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-envelope"></span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">PsdBosS</span>
+                                                <span class="item-category">Psd Template Help!</span>
+                                                <span class="item-date">26 Nov, 2016</span>
+                                            </div>
+                                            <span class="item-icon fas fa-reply"></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle fas fa-cart-plus dropdown-basket" id="dropdown-basket" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <span class="value">8</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-basket">
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">Grand Ballet</span>
+                                                <span class="item-category">WordPress</span>
+                                                <span class="item-price">$59</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">Apple Device</span>
+                                                <span class="item-category">WordPress</span>
+                                                <span class="item-price">$59</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="dropdown-item">
+                                        <div class="item-amount">
+                                            <span class="total">Total</span>
+                                            <span class="price ml-auto">$118</span>
+                                        </div>
+                                        <div class="btn-row">
+                                            <button class="btn-custom btn-small btn-success">Go to Cart</button>
+                                            <button class="btn-custom btn-small btn-danger">Go to Checkout</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- / user-nitification -->
+                        <div class="user-info dropdown for-logined">
+                            <a href="#" class="dropdown-toggle" id="dropdown-user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="user-img">
+                                    <img src="" alt="">
+                                </div>
+                                <!-- / user-img -->
+                                <div class="user-info-text">
+                                    <span class="user-name">Mike Hussy</span>
+                                    <span class="user-price">$171.00</span>
+                                </div>
+                                <span class="fa fa-chevron-down dropdown"></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-user">
+                                <ul class="default-list dropdown-item">
+                                    <li>
+                                        <a href="#">Profile Page</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Portfolio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Account Setting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Downloads</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Wishlist</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Upload Item</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Statement</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Withdraws</a>
+                                    </li>
+                                </ul>
+                                <!-- / default-list -->
+                            </div>
+                        </div>
+                        <!-- / user-info -->
+                        <div class="header-buttons">
+                            <button class="btn-custom btn-small btn-success rounded logined">Login</button>
+                            <button class="btn-custom btn-small btn-danger rounded logined">Register</button>
+                            <button class="btn-custom btn-small btn-danger rounded for-logined">Logout</button>
+                        </div>
+                        <!-- / header-buttons -->
                     </div>
-                </div>
+                    <!-- / navbar-collapse -->
+                </nav>
+                <!-- / navbar -->
             </div>
+            <!-- / container -->
         </div>
-        <!-- / Author section end -->
-
-        <!-- Free-monthly-tutorials section -->
-        <div class="free-monthly default-section">
+        <!-- / header-top -->
+        <div class="header-bottom">
             <div class="container">
-                <div class="default-section-title">
-                    <span>Free Monthly Tutorials To Help You With Your Project</span>
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">WordPress</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Joomla</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">PSD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Plugins</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Components</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Help</a>
+                            </li>
+                        </ul>
+                        <!-- / navbar-nav -->
+                    </div>
+                    <!-- / collapse -->
+                </nav>
+                <!-- / header-nav -->
+            </div>
+            <!-- / container -->
+        </div>
+        <!-- / header-bottom -->
+    </header>
+    <!-- Header end -->
+
+    <!-- Carousel start -->
+    <div class="container my-4">
+        <p>Carousel-section</p>
+    </div>
+
+
+    <div class="week-trending default-section">
+        <div class="container-fluid">
+            <div class="default-section-title">
+                <span>This Week Trending Products</span>
+            </div>
+            <div class="main-slider">
+                <div class="main-slider-item">
+                    <div class="card large-card">
+                        <div class="card-img green-label-card">
+                            <a href="#">
+                                <img src="img/large-card-img.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="card-description">
+                            <div class="card-info d-flex align-items-center">
+                                <div class="title-category">
+                                    <a href="#" class="card-item-title">Responsive Mobile APP</a>
+                                    <a href="#" class="card-item-category">Site Template</a>
+                                </div>
+                                <span class="card-price ml-auto">19$</span>
+                            </div>
+                            <!-- /card-info -->
+                            <div class="card-author d-flex align-items-center">
+                                <a href="#">
+                                    <img src="img/card-author-img.jpg" alt="">
+                                    <span class="author-name">Radiustheme</span>
+                                </a>
+                                <ul class="card-product-rating ml-auto">
+                                    <li class="fas fa-star">
+
+                                    </li>
+                                    <li class="fas fa-star">
+
+                                    </li>
+                                    <li class="fas fa-star">
+
+                                    </li>
+                                    <li class="fas fa-star">
+
+                                    </li>
+                                    <li class="fas fa-star">
+
+                                    </li>
+                                </ul>
+                                <span class="rating-count">5</span>
+                                <!--/card-product-rating-->
+                            </div>
+                            <!--/card-author -->
+                        </div>
+                        <!--/card-description-->
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <div class="free-monthly-card">
-                            <div class="free-monthly-img">
-                                <a href="#">
-                                    <img src="img/free-monthly-section.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="monthly-info">
-                                <a href="#">
-                                    <span>Web Design Tutorials</span>
-                                </a>
-                            </div>
+                <div class="main-slider-item">
+                    <div class="card large-card">
+                        <div class="card-img green-label-card">
+                            <a href="#">
+                                <img src="img/large-card-img.jpg" alt="">
+                            </a>
                         </div>
+                        <div class="card-description">
+                            <div class="card-info d-flex align-items-center">
+                                <div class="title-category">
+                                    <a href="#" class="card-item-title">Responsive Mobile APP</a>
+                                    <a href="#" class="card-item-category">Site Template</a>
+                                </div>
+                                <span class="card-price ml-auto">19$</span>
+                            </div>
+                            <!-- /card-info -->
+                            <div class="card-author d-flex align-items-center">
+                                <a href="#">
+                                    <img src="img/card-author-img.jpg" alt="">
+                                    <span class="author-name">Radiustheme</span>
+                                </a>
+                                <ul class="card-product-rating ml-auto">
+                                    <li class="fas fa-star">
+
+                                    </li>
+                                    <li class="fas fa-star">
+
+                                    </li>
+                                    <li class="fas fa-star">
+
+                                    </li>
+                                    <li class="fas fa-star">
+
+                                    </li>
+                                    <li class="fas fa-star">
+
+                                    </li>
+                                </ul>
+                                <span class="rating-count">5</span>
+                                <!--/card-product-rating-->
+                            </div>
+                            <!--/card-author -->
+                        </div>
+                        <!--/card-description-->
                     </div>
-                    <div class="col-12 col-md-4">
-                        <div class="free-monthly-card">
-                            <div class="free-monthly-img">
-                                <a href="#">
-                                    <img src="img/free-monthly-section.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="monthly-info">
-                                <a href="#">
-                                    <span>WordPress Tutorials</span>
-                                </a>
-                            </div>
+                </div>
+                <div class="main-slider-item">
+                    <div class="card large-card">
+                        <div class="card-img green-label-card">
+                            <a href="#">
+                                <img src="img/large-card-img.jpg" alt="">
+                            </a>
                         </div>
+                        <div class="card-description">
+                            <div class="card-info d-flex align-items-center">
+                                <div class="title-category">
+                                    <a href="#" class="card-item-title">Responsive Mobile APP</a>
+                                    <a href="#" class="card-item-category">Site Template</a>
+                                </div>
+                                <span class="card-price ml-auto">19$</span>
+                            </div>
+                            <!-- /card-info -->
+                            <div class="card-author d-flex align-items-center">
+                                <a href="#">
+                                    <img src="img/card-author-img.jpg" alt="">
+                                    <span class="author-name">Radiustheme</span>
+                                </a>
+                                <ul class="card-product-rating ml-auto">
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                </ul>
+                                <span class="rating-count">5</span>
+                                <!--/card-product-rating-->
+                            </div>
+                            <!--/card-author -->
+                        </div>
+                        <!--/card-description-->
                     </div>
-                    <div class="col-12 col-md-4">
-                        <div class="free-monthly-card">
-                            <div class="free-monthly-img">
-                                <a href="#">
-                                    <img src="img/free-monthly-section.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="monthly-info">
-                                <a href="#">
-                                    <span>HTML & CSS Tutorials</span>
-                                </a>
-                            </div>
+                </div>
+                <div class="main-slider-item">
+                    <div class="card large-card">
+                        <div class="card-img green-label-card">
+                            <a href="#">
+                                <img src="img/large-card-img.jpg" alt="">
+                            </a>
                         </div>
+                        <div class="card-description">
+                            <div class="card-info d-flex align-items-center">
+                                <div class="title-category">
+                                    <a href="#" class="card-item-title">Responsive Mobile APP</a>
+                                    <a href="#" class="card-item-category">Site Template</a>
+                                </div>
+                                <span class="card-price ml-auto">19$</span>
+                            </div>
+                            <!-- /card-info -->
+                            <div class="card-author d-flex align-items-center">
+                                <a href="#">
+                                    <img src="img/card-author-img.jpg" alt="">
+                                    <span class="author-name">Radiustheme</span>
+                                </a>
+                                <ul class="card-product-rating ml-auto">
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                </ul>
+                                <span class="rating-count">5</span>
+                                <!--/card-product-rating-->
+                            </div>
+                            <!--/card-author -->
+                        </div>
+                        <!--/card-description-->
+                    </div>
+                </div>
+                <div class="main-slider-item">
+                    <div class="card large-card">
+                        <div class="card-img green-label-card">
+                            <a href="#">
+                                <img src="img/large-card-img.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="card-description">
+                            <div class="card-info d-flex align-items-center">
+                                <div class="title-category">
+                                    <a href="#" class="card-item-title">Responsive Mobile APP</a>
+                                    <a href="#" class="card-item-category">Site Template</a>
+                                </div>
+                                <span class="card-price ml-auto">19$</span>
+                            </div>
+                            <!-- /card-info -->
+                            <div class="card-author d-flex align-items-center">
+                                <a href="#">
+                                    <img src="img/card-author-img.jpg" alt="">
+                                    <span class="author-name">Radiustheme</span>
+                                </a>
+                                <ul class="card-product-rating ml-auto">
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                </ul>
+                                <span class="rating-count">5</span>
+                                <!--/card-product-rating-->
+                            </div>
+                            <!--/card-author -->
+                        </div>
+                        <!--/card-description-->
+                    </div>
+                </div>
+                <div class="main-slider-item">
+                    <div class="card large-card">
+                        <div class="card-img green-label-card">
+                            <a href="#">
+                                <img src="img/large-card-img.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="card-description">
+                            <div class="card-info d-flex align-items-center">
+                                <div class="title-category">
+                                    <a href="#" class="card-item-title">Responsive Mobile APP</a>
+                                    <a href="#" class="card-item-category">Site Template</a>
+                                </div>
+                                <span class="card-price ml-auto">19$</span>
+                            </div>
+                            <!-- /card-info -->
+                            <div class="card-author d-flex align-items-center">
+                                <a href="#">
+                                    <img src="img/card-author-img.jpg" alt="">
+                                    <span class="author-name">Radiustheme</span>
+                                </a>
+                                <ul class="card-product-rating ml-auto">
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                </ul>
+                                <span class="rating-count">5</span>
+                                <!--/card-product-rating-->
+                            </div>
+                            <!--/card-author -->
+                        </div>
+                        <!--/card-description-->
+                    </div>
+                </div>
+                <div class="main-slider-item">
+                    <div class="card large-card">
+                        <div class="card-img green-label-card">
+                            <a href="#">
+                                <img src="img/large-card-img.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="card-description">
+                            <div class="card-info d-flex align-items-center">
+                                <div class="title-category">
+                                    <a href="#" class="card-item-title">Responsive Mobile APP</a>
+                                    <a href="#" class="card-item-category">Site Template</a>
+                                </div>
+                                <span class="card-price ml-auto">19$</span>
+                            </div>
+                            <!-- /card-info -->
+                            <div class="card-author d-flex align-items-center">
+                                <a href="#">
+                                    <img src="img/card-author-img.jpg" alt="">
+                                    <span class="author-name">Radiustheme</span>
+                                </a>
+                                <ul class="card-product-rating ml-auto">
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                </ul>
+                                <span class="rating-count">5</span>
+                                <!--/card-product-rating-->
+                            </div>
+                            <!--/card-author -->
+                        </div>
+                        <!--/card-description-->
+                    </div>
+                </div>
+                <div class="main-slider-item">
+                    <div class="card large-card">
+                        <div class="card-img green-label-card">
+                            <a href="#">
+                                <img src="img/large-card-img.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="card-description">
+                            <div class="card-info d-flex align-items-center">
+                                <div class="title-category">
+                                    <a href="#" class="card-item-title">Responsive Mobile APP</a>
+                                    <a href="#" class="card-item-category">Site Template</a>
+                                </div>
+                                <span class="card-price ml-auto">19$</span>
+                            </div>
+                            <!-- /card-info -->
+                            <div class="card-author d-flex align-items-center">
+                                <a href="#">
+                                    <img src="img/card-author-img.jpg" alt="">
+                                    <span class="author-name">Radiustheme</span>
+                                </a>
+                                <ul class="card-product-rating ml-auto">
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                </ul>
+                                <span class="rating-count">5</span>
+                                <!--/card-product-rating-->
+                            </div>
+                            <!--/card-author -->
+                        </div>
+                        <!--/card-description-->
                     </div>
                 </div>
             </div>
+            <!-- / main-slider -->
         </div>
-        <!-- / Free-monthly-tutorials section end-->
+        <!-- / container-fluid -->
+    </div>
+    <!-- / Carousel end -->
 
-        <!-- Buttons start -->
+    <!-- Why-you-chose section -->
+    <div class="container my-4">
+        <p>Why-you-chose section</p>
+    </div>
+
+    <div class="why-you-choose default-section bg-black">
         <div class="container">
-            <div class="my-4">
-                <p class="my-3">Кнопки стандарные</p>
-                <button class="btn-custom btn-default">All New Items</button>
-                <button class="btn-custom btn-danger">Live Preview</button>
-                <button class="btn-custom btn-secondary">Screenshots</button>
-                <button class="btn-custom btn-success">documentation</button>
-                <button class="btn-custom btn-primary">Add To Favourites</button>
+            <div class="default-section-title title-white">
+                <span>Why You Choose Foxtar Market Place?</span>
             </div>
-            <div class="my-4">
-                <p class="my-3">Маленькие кнопки rounded (с закругленными краями)</p>
-                <button class="btn-custom btn-small btn-success rounded">Login</button>
-            </div>
-            <div class="my-4">
-                <p class="my-3">Кнопки font-weight 700</p>
-                <button class="btn-custom btn-default font-weight-bold">All New Items</button>
-            </div>
-            <div>
-                <p class="my-3">Кнопки для сайдбара btn-block (тянутся по ширине родителя) box-shadow (тень для этих кнопок)</p>
-                <button class="btn-custom btn-primary btn-block box-shadow">
-                    <span class="far fa-heart"></span> Add To Favourites</button>
-                <button class="btn-custom btn-success btn-block box-shadow">
-                    <span class="fas fa-cart-plus"></span> Add To Favourites</button>
+            <div class="row quality">
+                <div class="col-12 col-md-4">
+                    <div class="quality-info">
+                        <div class="quality-info-img">
+                            <a href="#">
+                                <img src="img/test-img.jpg" alt="">
+                            </a>
+                        </div>
+                        <span class="quality-title">
+                            <a href="">Easily Buy & Sell</a>
+                        </span>
+
+                        <p>Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the
+                            industry's standaum.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="quality-info">
+                        <div class="quality-info-img">
+                            <a href="#">
+                                <img src="img/test-img.jpg" alt="">
+                            </a>
+                        </div>
+                        <span class="quality-title">
+                            <a href="#">Quality Products</a>
+                        </span>
+                        <p>Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the
+                            industry's standaum.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="quality-info">
+                        <div class="quality-info-img">
+                            <a href="#">
+                                <img src="img/test-img.jpg" alt="">
+                            </a>
+                        </div>
+                        <span class="quality-title">
+                            <a href="#">100% Secure Payment</a>
+                        </span>
+                        <p>Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the
+                            industry's standaum.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- / Buttons end-->
+    </div>
+    <!-- / Why-you-chose section end -->
 
-        <!-- / Dropdown start -->
-        <div class="container my-4">
-            <p>Dropdown из хедера</p>
-            <ul class="user-notification nav my-4">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle far fa-bell dropdown-bell" id="dropdown-bell" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                        <span class="value">8</span>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown-bell">
-                        <a class="dropdown-item" href="#">
-                            <div class="dropdown-card card-notification">
-                                <div class="dropdown-card-img">
-                                    <img src="img/test-img.jpg" alt="">
-                                </div>
-                                <div class="item-info">
-                                    <span class="item-category">Need WP Help!</span>
-                                    <span class="item-date">01 Dec, 2016</span>
-                                </div>
-                                <span class="item-icon far fa-bell"></span>
-                            </div>
-                        </a>
-                        <a class="dropdown-item" href="#">
-                            <div class="dropdown-card card-notification">
-                                <div class="dropdown-card-img">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="item-info">
-                                    <span class="item-category">Need WP Help!</span>
-                                    <span class="item-date">26 Nov, 2016</span>
-                                </div>
-                                <span class="item-icon far fa-bell"></span>
-                            </div>
-                        </a>
-                        <a class="dropdown-item" href="#">
-                            <div class="dropdown-card card-notification">
-                                <div class="dropdown-card-img">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="item-info">
-                                    <span class="item-category">Psd Template Help!</span>
-                                    <span class="item-date">26 Nov, 2016</span>
-                                </div>
-                                <span class="item-icon far fa-bell"></span>
-                            </div>
-                        </a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle far fa-envelope dropdown-envelope" id="dropdown-envelope" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                        <span class="value">5</span>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown-envelope">
-                        <a class="dropdown-item" href="#">
-                            <div class="dropdown-card card-notification">
-                                <div class="dropdown-card-img">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="item-info">
-                                    <span class="item-name">Kazi Fahim</span>
-                                    <span class="item-category">Need WP Help!</span>
-                                    <span class="item-date">01 Dec, 2016</span>
-                                </div>
-                                <span class="item-icon far fa-envelope"></span>
-                            </div>
-                        </a>
-                        <a class="dropdown-item" href="#">
-                            <div class="dropdown-card card-notification">
-                                <div class="dropdown-card-img">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="item-info">
-                                    <span class="item-name">Richi Lenal</span>
-                                    <span class="item-category">Need WP Help!</span>
-                                    <span class="item-date">26 Nov, 2016</span>
-                                </div>
-                                <span class="item-icon far fa-envelope"></span>
-                            </div>
-                        </a>
-                        <a class="dropdown-item" href="#">
-                            <div class="dropdown-card card-notification">
-                                <div class="dropdown-card-img">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="item-info">
-                                    <span class="item-name">PsdBosS</span>
-                                    <span class="item-category">Psd Template Help!</span>
-                                    <span class="item-date">26 Nov, 2016</span>
-                                </div>
-                                <span class="item-icon fas fa-reply"></span>
-                            </div>
-                        </a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle fas fa-cart-plus dropdown-basket" id="dropdown-basket" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                        <span class="value">8</span>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown-basket">
-                        <a class="dropdown-item" href="#">
-                            <div class="dropdown-card">
-                                <div class="dropdown-card-img">
-                                    <img src="img/test-img-large.jpg" alt="">
-                                </div>
-                                <div class="item-info">
-                                    <span class="item-name">Grand Ballet</span>
-                                    <span class="item-category">WordPress</span>
-                                    <span class="item-price">$59</span>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="dropdown-item" href="#">
-                            <div class="dropdown-card">
-                                <div class="dropdown-card-img">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="item-info">
-                                    <span class="item-name">Apple Device</span>
-                                    <span class="item-category">WordPress</span>
-                                    <span class="item-price">$59</span>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="dropdown-item">
-                            <div class="item-amount">
-                                <span class="total">Total</span>
-                                <span class="price ml-auto">$118</span>
-                            </div>
-                            <div class="btn-row">
-                                <button class="btn-custom btn-small btn-success">Go to Cart</button>
-                                <button class="btn-custom btn-small btn-danger">Go to Checkout</button>
-                            </div>
+    <!-- Author section start -->
+    <div class="author default-section bg-grey">
+        <div class="container">
+            <div class="author-card">
+                <div class="author-info">
+                    <span>Over 20,000 Author Are Involved Here!</span>
+                    <button class="btn-custom btn-default">Become A Author</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / Author section end -->
+
+    <!-- Free-monthly section -->
+    <div class="free-monthly default-section">
+        <div class="container">
+            <div class="default-section-title">
+                <span>Free Monthly Tutorials To Help You With Your Project</span>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="free-monthly-card">
+                        <div class="free-monthly-img">
+                            <a href="#">
+                                <img src="img/free-monthly-section.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="monthly-info">
+                            <a href="#">
+                                <span>Web Design Tutorials</span>
+                            </a>
                         </div>
                     </div>
-                </li>
-            </ul>
-            <div class="user-info dropdown for-logined">
-                <a href="#" class="dropdown-toggle" id="dropdown-user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <div class="user-img">
-                        <img src="" alt="">
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="free-monthly-card">
+                        <div class="free-monthly-img">
+                            <a href="#">
+                                <img src="img/free-monthly-section.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="monthly-info">
+                            <a href="#">
+                                <span>WordPress Tutorials</span>
+                            </a>
+                        </div>
                     </div>
-                    <!-- / user-img -->
-                    <div class="user-info-text">
-                        <span class="user-name">Mike Hussy</span>
-                        <span class="user-price">$171.00</span>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="free-monthly-card">
+                        <div class="free-monthly-img">
+                            <a href="#">
+                                <img src="img/free-monthly-section.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="monthly-info">
+                            <a href="#">
+                                <span>HTML & CSS Tutorials</span>
+                            </a>
+                        </div>
                     </div>
-                    <span class="fa fa-chevron-down dropdown"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / Free-monthly section end -->
+
+    <!-- Buttons start -->
+    <div class="container">
+        <div class="my-4">
+            <p class="my-3">Кнопки стандарные</p>
+            <button class="btn-custom btn-default">All New Items</button>
+            <button class="btn-custom btn-danger">Live Preview</button>
+            <button class="btn-custom btn-secondary">Screenshots</button>
+            <button class="btn-custom btn-success">documentation</button>
+            <button class="btn-custom btn-primary">Add To Favourites</button>
+        </div>
+        <div class="my-4">
+            <p class="my-3">Маленькие кнопки rounded (с закругленными краями)</p>
+            <button class="btn-custom btn-small btn-success rounded">Login</button>
+        </div>
+        <div class="my-4">
+            <p class="my-3">Кнопки font-weight 700</p>
+            <button class="btn-custom btn-default font-weight-bold">All New Items</button>
+        </div>
+        <div>
+            <p class="my-3">Кнопки для сайдбара btn-block (тянутся по ширине родителя) box-shadow (тень для этих кнопок)</p>
+            <button class="btn-custom btn-primary btn-block box-shadow">
+                <span class="far fa-heart"></span> Add To Favourites</button>
+            <button class="btn-custom btn-success btn-block box-shadow">
+                <span class="fas fa-cart-plus"></span> Add To Favourites</button>
+        </div>
+    </div>
+    <!-- / Buttons end-->
+
+    <!-- / Dropdown start -->
+    <div class="container my-4">
+        <p>Dropdown из хедера</p>
+        <ul class="user-notification nav my-4">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle far fa-bell dropdown-bell" id="dropdown-bell" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <span class="value">8</span>
                 </a>
-                <div class="dropdown-menu" aria-labelledby="dropdown-user">
-                    <ul class="default-list dropdown-item">
-                        <li>
-                            <a href="#">Profile Page</a>
-                        </li>
-                        <li>
-                            <a href="#">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#">Account Setting</a>
-                        </li>
-                        <li>
-                            <a href="#">Downloads</a>
-                        </li>
-                        <li>
-                            <a href="#">Wishlist</a>
-                        </li>
-                        <li>
-                            <a href="#">Upload Item</a>
-                        </li>
-                        <li>
-                            <a href="#">Statement</a>
-                        </li>
-                        <li>
-                            <a href="#">Withdraws</a>
-                        </li>
-                    </ul>
-                    <!-- / default-list -->
+                <div class="dropdown-menu" aria-labelledby="dropdown-bell">
+                    <a class="dropdown-item" href="#">
+                        <div class="dropdown-card card-notification">
+                            <div class="dropdown-card-img">
+                                <img src="img/test-img.jpg" alt="">
+                            </div>
+                            <div class="item-info">
+                                <span class="item-category">Need WP Help!</span>
+                                <span class="item-date">01 Dec, 2016</span>
+                            </div>
+                            <span class="item-icon far fa-bell"></span>
+                        </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                        <div class="dropdown-card card-notification">
+                            <div class="dropdown-card-img">
+                                <img src="" alt="">
+                            </div>
+                            <div class="item-info">
+                                <span class="item-category">Need WP Help!</span>
+                                <span class="item-date">26 Nov, 2016</span>
+                            </div>
+                            <span class="item-icon far fa-bell"></span>
+                        </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                        <div class="dropdown-card card-notification">
+                            <div class="dropdown-card-img">
+                                <img src="" alt="">
+                            </div>
+                            <div class="item-info">
+                                <span class="item-category">Psd Template Help!</span>
+                                <span class="item-date">26 Nov, 2016</span>
+                            </div>
+                            <span class="item-icon far fa-bell"></span>
+                        </div>
+                    </a>
                 </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle far fa-envelope dropdown-envelope" id="dropdown-envelope" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <span class="value">5</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-envelope">
+                    <a class="dropdown-item" href="#">
+                        <div class="dropdown-card card-notification">
+                            <div class="dropdown-card-img">
+                                <img src="" alt="">
+                            </div>
+                            <div class="item-info">
+                                <span class="item-name">Kazi Fahim</span>
+                                <span class="item-category">Need WP Help!</span>
+                                <span class="item-date">01 Dec, 2016</span>
+                            </div>
+                            <span class="item-icon far fa-envelope"></span>
+                        </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                        <div class="dropdown-card card-notification">
+                            <div class="dropdown-card-img">
+                                <img src="" alt="">
+                            </div>
+                            <div class="item-info">
+                                <span class="item-name">Richi Lenal</span>
+                                <span class="item-category">Need WP Help!</span>
+                                <span class="item-date">26 Nov, 2016</span>
+                            </div>
+                            <span class="item-icon far fa-envelope"></span>
+                        </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                        <div class="dropdown-card card-notification">
+                            <div class="dropdown-card-img">
+                                <img src="" alt="">
+                            </div>
+                            <div class="item-info">
+                                <span class="item-name">PsdBosS</span>
+                                <span class="item-category">Psd Template Help!</span>
+                                <span class="item-date">26 Nov, 2016</span>
+                            </div>
+                            <span class="item-icon fas fa-reply"></span>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle fas fa-cart-plus dropdown-basket" id="dropdown-basket" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <span class="value">8</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-basket">
+                    <a class="dropdown-item" href="#">
+                        <div class="dropdown-card">
+                            <div class="dropdown-card-img">
+                                <img src="img/test-img-large.jpg" alt="">
+                            </div>
+                            <div class="item-info">
+                                <span class="item-name">Grand Ballet</span>
+                                <span class="item-category">WordPress</span>
+                                <span class="item-price">$59</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                        <div class="dropdown-card">
+                            <div class="dropdown-card-img">
+                                <img src="" alt="">
+                            </div>
+                            <div class="item-info">
+                                <span class="item-name">Apple Device</span>
+                                <span class="item-category">WordPress</span>
+                                <span class="item-price">$59</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="dropdown-item">
+                        <div class="item-amount">
+                            <span class="total">Total</span>
+                            <span class="price ml-auto">$118</span>
+                        </div>
+                        <div class="btn-row">
+                            <button class="btn-custom btn-small btn-success">Go to Cart</button>
+                            <button class="btn-custom btn-small btn-danger">Go to Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="user-info dropdown for-logined">
+            <a href="#" class="dropdown-toggle" id="dropdown-user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="user-img">
+                    <img src="" alt="">
+                </div>
+                <!-- / user-img -->
+                <div class="user-info-text">
+                    <span class="user-name">Mike Hussy</span>
+                    <span class="user-price">$171.00</span>
+                </div>
+                <span class="fa fa-chevron-down dropdown"></span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdown-user">
+                <ul class="default-list dropdown-item">
+                    <li>
+                        <a href="#">Profile Page</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Account Setting</a>
+                    </li>
+                    <li>
+                        <a href="#">Downloads</a>
+                    </li>
+                    <li>
+                        <a href="#">Wishlist</a>
+                    </li>
+                    <li>
+                        <a href="#">Upload Item</a>
+                    </li>
+                    <li>
+                        <a href="#">Statement</a>
+                    </li>
+                    <li>
+                        <a href="#">Withdraws</a>
+                    </li>
+                </ul>
+                <!-- / default-list -->
             </div>
-            <!-- / user-info -->
         </div>
-        <!-- / Dropdown end -->
+        <!-- / user-info -->
+    </div>
+    <!-- / Dropdown end -->
 
-        <!-- Default-list start -->
+    <!-- Default-list start -->
+    <div class="container">
+        <p class="my-4">Стандартный список с иконками</p>
+        <ul class="default-list">
+            <li>
+                <a href="#">Profile Page</a>
+            </li>
+            <li>
+                <a href="#">Portfolio</a>
+            </li>
+            <li>
+                <a href="#">Account Setting</a>
+            </li>
+            <li>
+                <a href="#">Downloads</a>
+            </li>
+            <li>
+                <a href="#">Wishlist</a>
+            </li>
+            <li>
+                <a href="#">Upload Item</a>
+            </li>
+            <li>
+                <a href="#">Statement</a>
+            </li>
+            <li>
+                <a href="#">Withdraws</a>
+            </li>
+        </ul>
+        <!-- / default-list end -->
+    </div>
+    <!-- Default-list end -->
+
+    <!-- Default section start -->
+    <div class="container">
+        <p class="my-4">Стандартные секции</p>
+    </div>
+    <div class="default-section bg-black">
         <div class="container">
-            <p class="my-4">Стандартный список с иконками</p>
-            <ul class="default-list">
-                <li>
-                    <a href="#">Profile Page</a>
-                </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Account Setting</a>
-                </li>
-                <li>
-                    <a href="#">Downloads</a>
-                </li>
-                <li>
-                    <a href="#">Wishlist</a>
-                </li>
-                <li>
-                    <a href="#">Upload Item</a>
-                </li>
-                <li>
-                    <a href="#">Statement</a>
-                </li>
-                <li>
-                    <a href="#">Withdraws</a>
-                </li>
-            </ul>
-            <!-- / default-list end -->
+            <p>Стандартная секция с темным фоном bg-black</p>
         </div>
-        <!-- Default-list end -->
-
-        <!-- Default section start -->
+    </div>
+    <div class="default-section">
         <div class="container">
-            <p class="my-4">Стандартные секции</p>
+            <p>Стандартная секция</p>
         </div>
-        <div class="default-section bg-black">
-            <div class="container">
-                <p>Стандартная секция с темным фоном bg-black</p>
-            </div>
+    </div>
+    <div class="default-section bg-grey">
+        <div class="container">
+            <p>Стандартная секция с серым фоном bg-grey</p>
         </div>
-        <div class="default-section">
-            <div class="container">
-                <p>Стандартная секция</p>
-            </div>
-        </div>
-        <div class="default-section bg-grey">
-            <div class="container">
-                <p>Стандартная секция с серым фоном bg-grey</p>
-            </div>
-        </div>
-        <!-- Default section end -->
+    </div>
+    <!-- Default section end -->
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-        <script src="js/range.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/range.js"></script>
 
-        <!-- Slick-nav -->
-        <script src="js/jquery.slicknav.min.js"></script>
+    <!-- Slick-nav -->
+    <script src="js/jquery.slicknav.min.js"></script>
 
-        <!-- Init plugins -->
-        <script src="js/init.js"></script>
+    <!-- Init plugins -->
+    <script src="js/init.js"></script>
 
-    </body>
+</body>
 </html>
