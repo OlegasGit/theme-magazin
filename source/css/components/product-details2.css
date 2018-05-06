@@ -1,4 +1,7 @@
 /* Author Page start */
+.author {
+    margin-bottom: 115px;
+}
 
 /* Aside section start */
 .author .aside-section {
@@ -181,4 +184,33 @@
     margin-bottom: 20px;
     font-size: 20px;
 }
+
+.author-skills .title {
+    color: #263238;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-skills .title .skills-progress {
+    font-weight: 700;
+}
+
+.author-skills .progress {
+    margin-bottom: 20px;
+}
+.author-skills .progress-bar {
+    background-color: #cbcbcb;
+    border-radius: 3px;
+}
+
+.author-skills .progress-bar-striped {
+    background-image: linear-gradient(60deg,rgba(181,181,181,.15) 25%, 
+                      transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,
+                      rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-size: 2rem 2rem;
+}
+
+
 /* Author Page end */
