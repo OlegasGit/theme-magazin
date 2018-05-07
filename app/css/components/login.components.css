@@ -1,0 +1,128 @@
+/* Login start */
+#loginModal .modal-dialog{
+    max-width: 730px;
+}
+#loginModal .modal-content{
+    background-color: #8bc34a;
+    border-radius: 0;
+    border: none;
+    padding: 90px 30px 110px;
+}
+#loginModal .close{
+    position: absolute;
+    top: -70px;
+    right: -5px;
+    color: #fff;
+    opacity: 1;
+    font-size: 18px;
+}
+#loginModal button:focus{
+    outline: none;
+}
+#loginModal .login-title{
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+#loginModal form[name="login-form"]{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.login-form-control::-webkit-input-placeholder {color:#fff;}
+.login-form-control::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+.login-form-control:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+.login-form-control:-ms-input-placeholder      {color:#fff;}
+
+#loginModal .login-form-control{
+    background-color: #76ae36;
+    width: 100%;
+    height: 43px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 40px;
+}
+#loginModal .login-form-group{
+    position: relative;
+}
+#loginModal .login-form-group + .login-form-group{
+    margin-top: 8px;
+}
+#loginModal .login-form-group i{
+    position: absolute;
+    top: 48%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 16px;
+    color: #fff;
+    font-size: 13px;
+}
+#loginModal .login-btn-group{
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+#loginModal .login-btn-group button{
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    min-width: 140px;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(118, 174, 54, .75);
+            box-shadow: 0 2px 3px 0 rgba(118, 174, 54, .75);
+}
+#loginModal .login-btn-group a{
+    background-color: #76ae36;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1;
+    width: 244px;
+    margin-left: 12px;
+}
+#loginModal .login-btn-group a:hover{
+    background-color: #6fad28;
+}
+#loginModal .login-btn-group i{
+    padding-right: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+#loginModal .lost-password{
+    font-size: 18px;
+    color: #fff;
+}
+#loginModal .lost-password:hover{
+    color: #263238;
+}
+/* Login end */
+
+/* Adaptive start */
+@media(max-width: 576px){
+    #loginModal .modal-content{
+        padding: 50px 30px 60px;
+    }
+    #loginModal .close{
+        top: -30px;
+        right: 1px;
+    }
+    #loginModal .login-btn-group a{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    #loginModal .login-btn-group button{
+        width: 100%;
+    }
+    #loginModal .login-btn-group i{
+        padding-right: 10px;
+        padding-left: 0;
+    }
+} 
+@media(max-width: 479px){
+    #loginModal .login-btn-group a{
+        font-size: 16px;
+    }   
+}
+/* Adaptive end */

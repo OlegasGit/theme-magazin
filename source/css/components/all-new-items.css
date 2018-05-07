@@ -1,0 +1,265 @@
+
+/*Custom-styles-start*/
+.all-items-container .medium-card {
+    margin-bottom: 30px;
+}
+/*Categories start*/
+.aside-left .default-list {
+    font-size: 16px;
+    color: #263238;
+    line-height: 1em;
+}
+.aside-left .default-list li {
+    display: flex;
+    justify-content: space-between;
+}
+.aside-left .default-list .quantity {
+    color: #707070;
+    font-size: 14px;
+}
+.aside-left .brackets {
+    font-size: 15px;
+}
+/*Categories end*/
+/*Price range start*/
+
+.main-content .aside-section #slider-range span {
+    padding-bottom: 0px;
+}
+.ui-widget.ui-widget-content {
+    border: none;
+    background-color: #f2f5f8;
+    border-radius: 5px;
+    margin-bottom: 62px;
+}
+
+.ui-slider {
+    height: 5px;
+}
+.ui-slider .ui-slider-range {
+    background-color: #37474f;
+}
+.ui-slider .min-value,
+.ui-slider .max-value{
+    position: absolute;
+    top: 28px;
+    color: #78909c;
+    font-size: 15px;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.ui-slider .ui-state-default.ui-slider-handle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 3px solid #8bc34a;
+    background-color: #fff;
+}
+.aside-section:nth-child(2) .fas {
+    margin-right: 10px;
+}
+.aside-section:nth-child(2) .btn-custom {
+    display: block;
+    text-align: center;
+}
+/*Price range end*/
+/*Top 10 sellers start*/
+.aside.aside-left {
+    position: relative;
+}
+.aside.aside-left .close-icon {
+    display: none;
+}
+.aside-section .small-card span {
+    padding-bottom: 0;
+    display: inline-block;
+}
+.aside-section .card.small-card:nth-of-type(3) {
+    padding-bottom: 43px;
+    border-bottom: none;
+}
+.aside-section:nth-child(3) .btn-custom {
+    display: block;
+    text-align: center;
+}
+/*Top 10 sellers end*/
+
+/*Cards block*/
+.main-content {
+    padding-bottom: 110px;
+    background-color: #f4f6f5;
+}
+.main-content .sort-by-item {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.main-content .sort-by-item button {
+    background: transparent;
+    padding: 0;
+    line-height: 1;
+    appearance: none;
+}
+
+.main-content .sort-by-item button:focus,
+.main-content .sort-by-item button:hover {
+    color: #8bc34a;
+    outline: none;
+}
+.main-content .sort-by-item span {
+    color: #707070;
+    font-size: 14px;
+    padding: 0 15px;
+}
+.main-content .sort-by-item .change-view-items {
+    margin-left: 15px;
+}
+.main-content .sort-by-item .mobile-aside-toggle {
+    margin-right: 15px;
+}
+.main-content .pagination-example {
+    margin-top: auto;
+}
+
+.row-card-img {
+    background-color: #d4d4d4;
+}
+
+@media(max-width: 1200px) {
+    .card.medium-card .card-info {
+        padding: 20px 9px;
+    }
+    .medium-card .card-info .title-category a:first-child {
+        margin-bottom: 12px;
+    }
+    .medium-card .card-author {
+        padding: 14px 9px 16px;
+    }
+    .medium-card .card-author .author-name {
+        font-size: 11px;
+        margin-left: 4px;
+    }
+    .medium-card .card-product-rating li {
+        font-size: 9px;
+    }
+    .medium-card .card-author .rating-count {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .medium-card .rating-count::before {
+        font-size: 10px;
+    }
+    .medium-card .rating-count::after {
+        font-size: 10px;
+    }
+    .card.row-card .card-section-top {
+        padding: 15px 15px 15px;
+    }
+    .card.row-card .card-author {
+        padding: 15px 15px 15px;
+    }
+    .card.row-card .card-author .far {
+        padding-left: 15px;
+        margin-right: 15px;
+    }
+    .card.small-card .card-author .author-name {
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 5px;
+    }
+    .card.small-card .card-author .card-product-rating li {
+        font-size: 9px;
+    }
+}
+
+@media(max-width: 991px) {
+    .card.medium-card .card-info {
+        padding: 20px 15px;
+    }
+    .medium-card .card-info .title-category a:first-child {
+        margin-bottom: 15px;
+    }
+    .medium-card .card-author {
+        padding: 14px 15px 16px;
+    }
+    .medium-card .card-author .author-name {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .medium-card .card-product-rating li {
+        font-size: 12px;
+    }
+    .medium-card .card-author .rating-count {
+        font-size: 11px;
+        margin-left: 10px;
+    }
+    .medium-card .rating-count::before {
+        font-size: 11px;
+    }
+    .medium-card .rating-count::after {
+        font-size: 11px;
+    }
+    .card.row-card .card-section-top {
+        padding: 18px 22px 18px;
+    }
+    .card.row-card .card-author {
+        padding: 18px 22px 18px;
+    }
+    .card.row-card .card-author .far {
+        padding-left: 18px;
+        margin-right: 18px;
+    }
+}
+@media(max-width: 767px) {
+    .aside.aside-left .close-icon {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 27px;
+        font-size: 28px;
+        color: #8bc34a;
+        padding-bottom: 0px;
+        z-index: 1001;
+    }
+    .all-items-container .col-12:nth-child(n+2) .card.row-card {
+        margin-top: 20px;
+    }
+    .card.row-card .card-section-top {
+        padding: 15px 15px 15px;
+    }
+    .card.row-card .card-author {
+        padding: 15px 15px 15px;
+    }
+    .card.row-card .card-author .feedback {
+        display: none;
+    }
+    .card.row-card .card-description-row .row-card-text {
+        line-height: 1.3em;
+    }
+    .card.row-card .card-info {
+        margin-bottom: 11px;
+    }
+}
+@media(max-width: 576px) {
+    .card.row-card {
+        display: flex;
+        flex-direction: column;
+    }
+    .card.row-card .row-card-img img {
+        width: 100%;
+    }
+}
+@media(max-width: 479px){
+    .main-content .sort-by-item {
+        margin-top: 30px;
+    }
+    .breadcrumb-section {
+        display: none;
+    }
+}

@@ -1,0 +1,763 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:700%7COpen+Sans:400,600%7CRaleway:400,700%7CRoboto:400,500,700,900"
+        rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- Formstyler CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.theme.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Foxtar</title>
+</head>
+
+<body>
+    <!-- Header LOGINED -->
+    <header class="logined" id="header">
+        <div class="header-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/header-logo.png" alt="logo">
+                    </a>
+                    <div class="navbar-collapse">
+                        <span class="navbar-text ml-auto">
+                            <span class="text-danger">Need help?</span> Talk to an expert: +61 3 8376 6284
+                        </span>
+                        <!-- / navbar-text -->
+                        <ul class="user-notification nav">
+                            <li class="dropdown for-logined">
+                                <a href="#" class="dropdown-toggle far fa-bell dropdown-bell" id="dropdown-bell" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <span class="value">8</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-bell">
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-category">Need WP Help!</span>
+                                                <span class="item-date">01 Dec, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-bell"></span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-category">Need WP Help!</span>
+                                                <span class="item-date">26 Nov, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-bell"></span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-category">Psd Template Help!</span>
+                                                <span class="item-date">26 Nov, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-bell"></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="dropdown for-logined">
+                                <a href="#" class="dropdown-toggle far fa-envelope dropdown-envelope" id="dropdown-envelope" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <span class="value">5</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-envelope">
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">Kazi Fahim</span>
+                                                <span class="item-category">Need WP Help!</span>
+                                                <span class="item-date">01 Dec, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-envelope"></span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">Richi Lenal</span>
+                                                <span class="item-category">Need WP Help!</span>
+                                                <span class="item-date">26 Nov, 2016</span>
+                                            </div>
+                                            <span class="item-icon far fa-envelope"></span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card card-notification">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">PsdBosS</span>
+                                                <span class="item-category">Psd Template Help!</span>
+                                                <span class="item-date">26 Nov, 2016</span>
+                                            </div>
+                                            <span class="item-icon fas fa-reply"></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle fas fa-cart-plus dropdown-basket" id="dropdown-basket" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <span class="value">8</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-basket">
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">Grand Ballet</span>
+                                                <span class="item-category">WordPress</span>
+                                                <span class="item-price">$59</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="dropdown-card">
+                                            <div class="dropdown-card-img">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="item-info">
+                                                <span class="item-name">Apple Device</span>
+                                                <span class="item-category">WordPress</span>
+                                                <span class="item-price">$59</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="dropdown-item">
+                                        <div class="item-amount">
+                                            <span class="total">Total</span>
+                                            <span class="price ml-auto">$118</span>
+                                        </div>
+                                        <div class="btn-row">
+                                            <button class="btn-custom btn-small btn-success">Go to Cart</button>
+                                            <button class="btn-custom btn-small btn-danger">Go to Checkout</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- / user-nitification -->
+                        <div class="user-info dropdown for-logined">
+                            <a href="#" class="dropdown-toggle" id="dropdown-user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="user-img">
+                                    <img src="" alt="">
+                                </div>
+                                <!-- / user-img -->
+                                <div class="user-info-text">
+                                    <span class="user-name">Mike Hussy</span>
+                                    <span class="user-price">$171.00</span>
+                                </div>
+                                <span class="fa fa-chevron-down dropdown"></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-user">
+                                <ul class="default-list dropdown-item">
+                                    <li>
+                                        <a href="#">Profile Page</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Portfolio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Account Setting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Downloads</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Wishlist</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Upload Item</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Statement</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Withdraws</a>
+                                    </li>
+                                </ul>
+                                <!-- / default-list -->
+                            </div>
+                        </div>
+                        <!-- / user-info -->
+                        <div class="header-buttons">
+                            <button class="btn-custom btn-small btn-success rounded logined">Login</button>
+                            <button class="btn-custom btn-small btn-danger rounded logined">Register</button>
+                            <button class="btn-custom btn-small btn-danger rounded for-logined">Logout</button>
+                        </div>
+                        <!-- / header-buttons -->
+                    </div>
+                    <!-- / navbar-collapse -->
+                </nav>
+                <!-- / navbar -->
+            </div>
+            <!-- / container -->
+        </div>
+        <!-- / header-top -->
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">WordPress</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Joomla</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">PSD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Plugins</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Components</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Help</a>
+                            </li>
+                        </ul>
+                        <!-- / navbar-nav -->
+                    </div>
+                    <!-- / collapse -->
+                </nav>
+                <!-- / header-nav -->
+            </div>
+            <!-- / container -->
+        </div>
+        <!-- / header-bottom -->
+    </header>
+    <!-- Header end -->
+    <main id="main">
+        <section class="search-section small-search text-center d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-10 col-xl-8 m-auto">
+                        <span>Premium WordPress Themes, Web Templates and Many More ...</span>
+                        <form class="search-form m-auto">
+                            <input type="text" name="Search Your Keywords . . ." class="form-control-search" placeholder="Search Your Keywords . . .">
+                            <i class="fas fa-search"></i>
+                        </form>
+                    </div>
+                    <!-- / col-8 -->
+                </div>
+                <!-- / row -->
+            </div>
+            <!-- / container -->
+        </section>
+        <!-- / section small-search -->
+        <section class="breadcrumb-section">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">Upload product</li>
+                    </ol>
+                </nav>
+            </div>
+            <!-- / container -->
+        </section>
+        <!-- /breadcrumb -->
+        <section class="form-section upload-products">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content-wrapper-bordered">
+                            <div class="content-wrapper-title">
+                                <h6>Upload your item</h6>
+                            </div>
+                            <div class="content-wrapper-body">
+                                <div class="form-group row">
+                                    <label for="selectCategories" class="col-12 col-md-3 col-lg-2 col-form-label">Select categories
+                                        <span>*</span>
+                                    </label>
+                                    <div class="col-12 col-md-9 col-lg-10">
+                                        <select id="selectCategories" name="selectCategory" data-placeholder="Select">
+                                            <option></option>
+                                            <option value="category1">Category 1</option>
+                                            <option value="category2">Category 2</option>
+                                            <option value="category3">Category 3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="productName" class="col-12 col-md-3 col-lg-2 col-form-label">Product name
+                                        <span>*</span>
+                                    </label>
+                                    <div class="col-12 col-md-9 col-lg-10">
+                                        <input type="text" class="form-control" id="productName" placeholder="Enter your product name here ...">
+                                    </div>
+                                </div>
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="productDescription" class="col-12 col-md-3 col-lg-2 col-form-label">Product description
+                                        <span>*</span>
+                                    </label>
+                                    <div class="col-12 col-md-9 col-lg-10">
+                                        <textarea type="text" class="form-control" id="productDescription" placeholder="<h1> Type your text here </h1/>"></textarea>
+                                    </div>
+                                </div>
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="uploadFile" class="col-12 col-md-3 col-lg-2 col-form-label">Upload main file
+                                        <span>*</span>
+                                    </label>
+                                    <div class="col-12 col-md-9 col-lg-10">
+                                        <input type="file" name="uploadScreenshots" data-browse="choose file" data-placeholder="no file chosen" id="uploadFile">
+                                    </div>
+                                </div>
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="uploadScreenshots" class="col-12 col-md-3 col-lg-2 col-form-label">Upload screenshots
+                                        <span>*</span>
+                                    </label>
+                                    <div class="col-12 col-md-9 col-lg-10">
+                                        <input type="file" name="uploadScreenshots" data-browse="choose file" data-placeholder="no file chosen" id="uploadScreenshots">
+                                    </div>
+                                </div>
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="fileIncluded" class="col-12 col-md-3 col-lg-2 col-form-label">File included
+                                        <span>*</span>
+                                    </label>
+                                    <div class="col-12 col-md-9 col-lg-10">
+                                        <select id="fileIncluded" name="fileIncluded" data-placeholder="Select file type">
+                                            <option></option>
+                                            <option value="type1">Type 1</option>
+                                            <option value="type2">Type 2</option>
+                                            <option value="type3">Type 3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="fileDimensions" class="col-12 col-md-3 col-lg-2 col-form-label">File dimensions
+                                        <span>*</span>
+                                    </label>
+                                    <div class="col-12 col-md-9 col-lg-10">
+                                        <input type="text" class="form-control" id="fileDimensions" placeholder="Enter the item dimensions here ...">
+                                    </div>
+                                </div>
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="itemTags" class="col-12 col-md-3 col-lg-2 col-form-label">Item tags
+                                        <span>*</span>
+                                    </label>
+                                    <div class="col-12 col-md-9 col-lg-10">
+                                        <input type="text" class="form-control" id="itemTags" placeholder="Enter tag here">
+                                    </div>
+                                </div>
+                                <!-- / form-group-row -->
+                            </div>
+                            <!-- / content-wrapper-body -->
+                            <div class="content-wrapper-title product-title">
+                                <h6>Set your price (US$)</h6>
+                            </div>
+                            <div class="content-wrapper-body product-form">
+                                <div class="form-group row">
+                                    <label for="productName" class="col-12 col-md-3 col-lg-2 col-form-label">Regular license
+                                        <span>*</span>
+                                    </label>
+                                    <div class="col-12 col-md-9 col-lg-10">
+                                        <input type="text" class="form-control" id="productName" placeholder="$00.00">
+                                    </div>
+                                </div>
+                                <!-- / form-group-row -->
+                                <div class="form-group row">
+                                    <label for="productName" class="col-12 col-md-3 col-lg-2 col-form-label">Extended license
+                                        <span>*</span>
+                                    </label>
+                                    <div class="col-12 col-md-9 col-lg-10">
+                                        <input type="text" class="form-control" id="productName" placeholder="$00.00">
+                                    </div>
+                                </div>
+                                <!-- / form-group-row -->
+                                <div class="row submit-area">
+                                    <div class="col-12 col-md-9 col-lg-10 offset-md-3 offset-lg-2">
+                                        <button type="submit" class="btn-custom btn-success">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- / content-wrapper-body -->
+                        </div>
+                        <!-- / content-wrapper-bordered -->
+                    </div>
+                    <!-- /col-12 -->
+                </div>
+                <!-- / row -->
+            </div>
+            <!-- / container -->
+        </section>
+        <!-- / form-section -->
+    </main>
+    <!-- Footer -->
+    <footer id="footer" class="bg-footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="accordion" id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0 footer-title">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            Join Our Community
+                                        </button>
+                                    </h5>
+                                </div>
+                                <!-- /card-header -->
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <ul class="list-item">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-chevron-right"></i>
+                                                    <span>Home</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-chevron-right"></i>
+                                                    <span>Forums</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-chevron-right"></i>
+                                                    <span>Become an Author</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-chevron-right"></i>
+                                                    <span>Community Meetups</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-chevron-right"></i>
+                                                    <span>Become an Affiliate</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <!-- /list-item -->
+                                    </div>
+                                    <!-- /card-body -->
+                                </div>
+                                <!-- /collapseOne -->
+                            </div>
+                            <!-- /card -->
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0 footer-title">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">
+                                            Need Help
+                                        </button>
+                                    </h5>
+                                </div>
+                                <!-- /card-header -->
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <ul class="list-item">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-chevron-right"></i>
+                                                    <span>Help Center</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-chevron-right"></i>
+                                                    <span>Foxtar Market Terms</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-chevron-right"></i>
+                                                    <span>Author Terms</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-chevron-right"></i>
+                                                    <span>Foxtar Licenses</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-chevron-right"></i>
+                                                    <span>Contact Us</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <!-- /list-item -->
+                                    </div>
+                                    <!-- /card-body -->
+                                </div>
+                                <!-- /collapseOne -->
+                            </div>
+                            <!-- /card -->
+                        </div>
+                        <!-- /accordion -->
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                        <div class="about-company">
+                            <div class="footer-title">
+                                <h5>About Company</h5>
+                            </div>
+                            <!-- /footer-title -->
+                            <div class="footer-item-text">
+                                <p>Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit
+                                    amet urna iat.Praesent vel rutrum purus. </p>
+                            </div>
+                            <!-- /footer-item-text -->
+                            <div class="contacts">
+                                <div class="contact-item d-flex justify-content-start">
+                                    <div class="icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact-text">
+                                        <span class="address">PO Box 16122 Collins Street West Victoria 8007 Australia</span>
+                                    </div>
+                                </div>
+                                <!-- /contact-item  -->
+                                <div class="contact-item d-flex">
+                                    <div class="icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="contact-text">
+                                        <span class="address">+61 3 8376 6284</span>
+                                    </div>
+                                </div>
+                                <!-- /contact-item  -->
+                            </div>
+                            <!-- /contacts -->
+                        </div>
+                        <!-- /adout-company -->
+                    </div>
+                    <!-- /col-3 -->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                        <div class="join-our-community">
+                            <div class="footer-title">
+                                <h5>Join Our Community</h5>
+                            </div>
+                            <!-- /footer-title -->
+                            <ul class="list-item">
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <span>Home</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <span>Forums</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <span>Become an Author</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <span>Community Meetups</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <span>Become an Affiliate</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- /list-item -->
+                        </div>
+                        <!-- /join-our-community -->
+                    </div>
+                    <!-- /col-3 -->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                        <div class="need-help">
+                            <div class="footer-title">
+                                <h5>Need Help</h5>
+                            </div>
+                            <!-- /footer-title -->
+                            <ul class="list-item">
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <span>Help Center</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <span>Foxtar Market Terms</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <span>Author Terms</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <span>Foxtar Licenses</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <span>Contact Us</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- /list-item -->
+                        </div>
+                        <!-- /need-help -->
+                    </div>
+                    <!-- /col-3 -->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                        <div class="follow-us-on">
+                            <div class="footer-title">
+                                <h5>Follow Us On</h5>
+                            </div>
+                            <!-- /footer-title -->
+                            <ul class="social-nav">
+                                <li class="social-item">
+                                    <a href="#"></a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#"></a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#"></a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#"></a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#"></a>
+                                </li>
+                            </ul>
+                            <!-- /social -->
+                            <div class="subscribe">
+                                <div class="subscribe-title">
+                                    <span>Newsletter Sign Up!</span>
+                                </div>
+                                <!-- /subscribe-title -->
+                                <form>
+                                    <input type="email" name="email" placeholder="E-mail address">
+                                    <button>
+                                        <i class="fas fa-location-arrow"></i>
+                                    </button>
+                                </form>
+                                <!-- /form -->
+                            </div>
+                            <!-- /subscribe -->
+                        </div>
+                        <!-- /follow-us-on -->
+                    </div>
+                    <!-- /col-3 -->
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /footer-row -->
+        </div>
+        <!-- /container -->
+        <div class="copyright">
+            <div class="container">
+                <i class="far fa-copyright"></i>
+                <span>2017 Foxtar market place. Trademarks and brands are the property of their respective owners.</span>
+            </div>
+        </div>
+        <!-- /copyright -->
+    </footer>
+    <!-- /footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Slick -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Aside -->
+    <script src="js/aside.js"></script>
+    <!-- formstyler -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
+
+    <!-- Init plugins -->
+    <script src="js/init.js"></script>
+
+</body>
+
+</html>

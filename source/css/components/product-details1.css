@@ -182,6 +182,7 @@
 .aside-section .price-option {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 28px;
 }
 
@@ -190,16 +191,30 @@
     font-weight: 500;
     color: #e74c3c;
 }
-
-.price-option select {
-    padding: 7px 25px 7px 10px;
-    font-size: 13px;
-    color: #70838d;
-    border-color: #d5d5d5;
-    appearance: none;
-    background: url(../img/select-trigger.png) top 50% right 10px no-repeat;
-    background-size: 8px 5px;
+.price-option .jq-selectbox {
+    width: auto;
 }
+
+.price-option .jq-selectbox__select {
+    max-width: 82px;
+    border-color: #d5d5d5;
+    color: #70838d;
+    background-color: #fff;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding: 7px 25px 7px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.price-option .jq-selectbox__trigger {
+    width: 25px;
+}
+
+.price-option .jq-selectbox__trigger-arrow {
+    border-top-color: #8bc34a;
+}
+
 
 .product-author-info .author-info {
     display: flex;

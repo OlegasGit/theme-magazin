@@ -178,8 +178,7 @@
 } 
 
 .bg-dark {
-    background-color: #263238!important;
-    /* ЗАГНАТЬ в РЕСЕТ??? */
+    background-color: #263238 !important;
 }
 
 /* Header end */
@@ -245,13 +244,9 @@
         font-size: 18px;
     }
 
-    .header-bottom .navbar-nav li {
-        border-bottom: 1px solid #95c85a;
-    }
-
     .header-bottom .navbar-nav li + li {
         margin-left: 0;
-        margin-top: 15px;
+        margin-top: 20px;
     }
 }
 

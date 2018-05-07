@@ -1,0 +1,105 @@
+/* Personal info start */
+.form-section.personal-info{
+    background-color: #f4f6f5;
+    padding-bottom: 153px;
+    position: relative;
+}
+.form-section.personal-info .mobile-aside-toggle{
+    position: absolute;
+    top: -33px;
+}
+.form-section .mobile-aside-toggle i{
+    background-color: #f4f6f5;
+    font-size: 20px;
+    color: #707070;
+    font-weight: 700;
+}
+.form-section.personal-info .content-wrapper-bordered .content-wrapper-body{
+    padding: 35px 34px 80px;
+}
+.form-section .aside-section{
+    padding: 0;
+    border-bottom: none;
+}
+.nav-pills .nav-link{
+    border-radius: 0;
+}
+.nav.nav-pills a{
+    position: relative;
+    padding: 15px 5px 15px 50px;
+    border-bottom: 1px solid #d7d7d7;
+    font-size: 14px;
+    color: #707070;
+}
+.nav.nav-pills .nav-link::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f054";
+    font-weight: 900;
+    position: absolute;
+    left: 23px;
+    bottom: 18px;
+    color: #696969;
+    font-size: 10px;
+}
+.nav-pills .nav-link.active, 
+.nav-pills .show>.nav-link{
+    color: #37474f;
+    border-bottom: 1px solid #8bc34a;
+    background-color: #fff;
+}
+.nav.nav-pills .nav-link.active::before{
+    color: #8bc34a;
+}
+.nav.nav-pills .nav-link:hover::before{
+    color: #8bc34a;
+}
+.nav.nav-pills .nav-link:hover{
+    color: #37474f;
+    border-bottom: 1px solid #8bc34a;
+    background-color: #fff;
+}
+.form-section.personal-info .update-area{
+    margin-top: 25px;
+}
+.form-section.personal-info .update-area .btn-custom{
+    padding: 13px 35px;
+    font-size: 15px;
+}
+@media(max-width: 991px){
+    .nav.nav-pills a{
+        padding: 25px 5px 25px 50px;
+        font-size: 20px;
+    }
+    .nav.nav-pills .nav-link::before{
+        bottom: 30px;
+    }
+}
+@media(max-width: 767px){
+    .form-section.personal-info .content-wrapper-bordered .content-wrapper-body{
+        padding: 20px 20px 50px;
+    }
+    .form-section.personal-info .content-wrapper-bordered .content-wrapper-title{
+        padding-left: 20px;
+    }
+    .form-section.personal-info{
+        padding-bottom: 80px;
+    }
+    .form-section.personal-info .mobile-aside{
+        top: 60px;
+    }
+}
+@media(max-width: 576px){
+    .update-area .btn-custom{
+        width: 100%;
+    }
+}
+@media(max-width: 479px){
+    .form-section.personal-info .mobile-aside-toggle{
+        top: -60px;
+    }
+    .form-section .mobile-aside-toggle i{
+        font-size: 25px;
+    }
+}
+
+/* Personal info end */

@@ -22,3 +22,19 @@ $('.row-card').on('click', function(){
     $('.all-items-container .row-card-img').addClass('d-block');
 });
 
+// Init for all-new-items page
+$('.grid-thumbs').on('click', function(){
+    // Find cards and remove class row-card
+    $('.all-items-container .medium-card').removeClass('row-card');
+    $('.all-items-container .col-12').removeClass('col-sm-12 col-md-12 col-lg-12 col-xl-12');
+    $('.all-items-container .card-img').removeClass('d-none');
+    $('.all-items-container .row-card-img').removeClass('d-block');
+});
+
+$('.grid-list').on('click', function(){
+    // Find cards and add class row-card
+    $('.all-items-container .medium-card').addClass('row-card');
+    $('.all-items-container .col-12').addClass('col-sm-12 col-md-12 col-lg-12 col-xl-12');
+    $('.all-items-container .card-img').addClass('d-none');
+    $('.all-items-container .row-card-img').addClass('d-block');
+});

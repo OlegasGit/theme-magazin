@@ -1,0 +1,109 @@
+/* ----- Search section start ----- */
+.search-section{
+    background-image: url("../img/inner-img.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+.search-section.big-search{
+    min-height: 535px;
+}
+.search-section.small-search{
+    min-height: 230px;
+}
+.search-section h1{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.search-section span{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 55px;
+    display: block;
+}
+.search-section.small-search span{
+    margin-bottom: 25px;
+}
+.search-form{
+    max-width: 620px;
+    position: relative;
+}
+
+.form-control-search::-webkit-input-placeholder {color:#90a4ae;}
+.form-control-search::-moz-placeholder          {color:#90a4ae;}/* Firefox 19+ */
+.form-control-search:-moz-placeholder           {color:#90a4ae;}/* Firefox 18- */
+.form-control-search:-ms-input-placeholder      {color:#90a4ae;}
+
+.form-control-search{
+    padding-right: 60px;
+    padding-left: 25px;
+    width: 100%;
+    height: 60px;
+    box-shadow: 1px 1px 10px rgba(124, 178, 64, 0.75);
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .05em;
+    text-transform: capitalize;
+    color: #90a4ae;
+    background-color: #fff;
+}
+.search-form i{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: #78909c;
+    font-size: 20px; 
+    background-color: transparent; 
+}
+.form-control-search:focus{
+    box-shadow: 1px 1px 30px rgba(124, 178, 64, 0.75);
+}
+.small-search form .form-control-search{
+    box-shadow: 1px 1px 10px rgba(1, 1, 1, 0.75);
+}
+.small-search form .form-control-search:focus{
+    box-shadow: 1px 1px 25px rgba(1, 1, 1, 0.45);
+}
+
+/* ----- Search section end ----- */
+
+/* Adaptive start */
+@media(max-width: 991px){
+    .search-section h1{
+        font-size: 40px;
+    }
+}
+@media(max-width: 767px){
+    .search-section.big-search{
+        min-height: 335px;
+    }
+    .search-section h1{
+        font-size: 33px;
+    }
+    .search-section span{
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+    .form-control-search{
+        height: 40px;
+        padding-right: 40px;
+    }
+    .search-form i{
+        font-size: 15px;
+        right: 10px;
+    }
+}
+@media(max-width: 576px){
+    .search-section h1{
+        font-size: 29px;
+    }   
+}
+/* Adaptive end */

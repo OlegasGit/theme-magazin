@@ -1,21 +1,36 @@
 // init carousel
 $('.main-slider').slick({
-  slidesToShow: 4,
-  slidesToScroll: 2,
-  autoplay: true,
-  autoplaySpeed: 2000,
-  dots: true,
-  prevArrow: false,
-  nextArrow: false,
+    slidesToShow: 4,
+    slidesToScroll: 2,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: true,
+    prevArrow: false,
+    nextArrow: false,
+    responsive: [
+        {
+            breakpoint: 1400,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
 });
-
-if(window.matchMedia('(max-width: 991px)').matches)
-{
-    $('.main-slider').slick({
-      slidesToShow: 3,
-      autoplay: false,
-    });
-}
 
 // init Aleksander
 $( function() {
@@ -43,4 +58,7 @@ $('.row-card').on('click', function(){
 });
 
 // init Inna
+
+// Select init
+$('select, input[type="file"]').styler();
 	

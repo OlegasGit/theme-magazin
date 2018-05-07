@@ -1,0 +1,32 @@
+/* ----- Breadcrumbs start ----- */
+.breadcrumb-section{
+    padding: 45px 0;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    content: "-";
+    color: #8bc34a;
+}
+.breadcrumb{
+    font-size: 15px;
+    padding: 0;
+    margin-bottom: 0px; 
+    background-color: transparent;
+}
+.breadcrumb-item{
+    color: #b0bec5;
+}
+.breadcrumb-item a:hover{
+    color: #263238;
+}
+.breadcrumb-item.active{
+    color: #263238;
+}
+/* Breadcrumbs end */
+
+/* Adaptive start */
+@media(max-width: 479px){
+    .breadcrumb{
+        display: none;
+    }
+}
+/* Adaptive end */

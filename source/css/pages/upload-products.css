@@ -1,0 +1,35 @@
+/* Upload products start */
+.form-section.upload-products{
+    background-color: #f4f6f5;
+    padding-bottom: 110px;
+}
+.form-section.upload-products .content-wrapper-bordered .content-wrapper-body{
+    padding: 45px 45px 68px;
+}
+.content-wrapper-bordered .content-wrapper-title.product-title{
+    padding-top: 0;
+} 
+.submit-area{
+    margin-top: 42px;
+}
+.submit-area .btn-custom{
+    padding: 13px 35px;
+    font-size: 15px;
+}
+@media(max-width: 767px){
+    .form-section.upload-products .content-wrapper-bordered .content-wrapper-body{
+        padding: 20px 20px 40px;
+    }
+    .form-section.upload-products .content-wrapper-bordered .content-wrapper-title{
+        padding-left: 20px;
+    }
+}
+@media(max-width: 576px){
+    .submit-area .btn-custom{
+        width: 100%;
+    }
+    .form-section.upload-products{
+        padding-bottom: 80px;
+    }
+}
+/* Upload products end */
