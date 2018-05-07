@@ -114,6 +114,7 @@
     height: 34px;
     border-radius: 50%;
     background-color: #b5b5b5;
+    overflow: hidden;
 }
 
 .user-info-text span {
